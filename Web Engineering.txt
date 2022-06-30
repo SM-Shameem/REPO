@@ -1,0 +1,92 @@
+=================================================================================
+PROFESSIONAL LEVELS 1
+=================================================================================
+
+MODULE-1 : CODING (6 - 8 Months)
+---------------------------------------------------------------------------------
+1. JavaScript & AJAX and Typescript 		- 1 Months (JULY)
+2. HTML & CSS and Sass 				- 1 Months (AUGUST)
+3. Node JS & MySQL and AJAX 			- 1 Months (SEPTEMBER)
+4. XML and JSON 				- 1 Months (OCTOBER)
+5. Bootstrap and JQuery 			- 1 Months (NOVEMBER)
+6. ReactJS 					- 1 Months (DECEMBER)
+7. W3CSS and W3JS and ExpressJS (in this duration)
+8. Git and GitHub (in this duration)
+
+MODULE-2 : ARCHITECT (6 Months)
+---------------------------------------------------------------------------------
+1. Web Engineering 				- 1 Months (JANUARY) (Required)
+2. Web Architecture 				- 1 Months (FEBRUARY)
+3. Software Archtiecture 			- 1 Months (MARCH) (Required)
+4. Designing Interface 				- 1 Months (APRIL) (Required)
+5. Software Analysis and Requirements 		- 1 Months (MAY) (Required)
+## Software Architecture, Designing Interface and Software Requirements Analysis (Implementation)
+
+MODULE-3 : DEVOPS (6 Months)
+---------------------------------------------------------------------------------
+1. Software Testing and Quality Assurance 	- 1 Months (JULY) (Required)
+2. Technical Writing and Documentation 		- 1 Months (AUGUST)
+3. Agile Project Management and MPM 		- 1 Months (SEPTEMBER) (Required) 
+4. DevOps part-1 (Fundamentals, JIRA, JANKINS) 	- 1 Months (OCTOBER) (Required)
+5. DevOps part-2 (CI/CD, Docker) 		- 1 Months (NOVEMBER) (Required)
+#. Advance Development Techniques, Testing and Quality Assurance and DevOps (Implementation)
+
+MODULE-4 : ADVANCE WEB DEVELOPMENT (6 Months)
+---------------------------------------------------------------------------------
+1. Business Intellignece and E-Commence 	- 1 Months (JANUARY)
+2. Security System 				- 1 Months (FEBRUARY) (Required)
+3. Web Assembly and C++ Packages 		- 1 Months (MARCH) (Required)
+4. Languages and Their Comparison (web) 	- 1 Months (APRIL) (Required)
+5. Web Technology 				- 1 Months (MAY)
+	1. Client Server Achitecture - 10 Days
+	2. Web Rendering System - 10 Days
+	4. Web Multimedia, File System - 10 Days
+# Business Intelligence, Security System and Web Assembly (Implementation)
+
+MODULE-# : UI-UX & MARKETPLACE (WITH MODULE 1, 2 and 3)
+---------------------------------------------------------------------------------
+1. Adobe XD, Figma, Photoshop (with Projects)	- (JULY & AUGUST)
+1. Graphis Design Theory (with Projects)	- (SEPTEMBER & OCTOBER)
+2. UI-UX Designe Theory (with Projects)		- (OCTOBER & DECEMBER)
+3. Developer Community and Marketplace		- (JANUARY & FEBRUARY)
+4. Coding and Design Project (Market Analysis) 	- (MARCH)
+5. Client and Buyer (Communication and Bidding) - (APRIL, MAY & JUNE)
+# Local Project Problem Fixing Project (From Community or Any Source) 
+# Preparing and Submitting (Web Template) for (ThemForest)
+# Try to Bid on (Problem Fixing Projects) on (Freelancing Marketplace)
+
+=================================================================================
+PROFESSIONAL LEVELS 2
+=================================================================================
+
+MODULE-1 : SYSTEM PERFORMANCE (6 Months)
+---------------------------------------------------------------------------------
+1. Data Structure and Algorithm (Required)
+2. ALgorithm Engineering and Optimization 
+3. Parallel and Distributed System 
+4. Applied Probability, Statistics and Queuing Theory (Required)
+5. System Analysis and Design (Required)
+6. theory of computation
+
+MODULE-2 : SYSTEM OPERATION-1 (4 Months)
+---------------------------------------------------------------------------------
+09. Computer Architecture (Required)
+10. Microprocessor and Interfacing (Required)
+11. Microcontroller and Embedded System 
+12. Computer Network and Data Communication (Required) 
+
+MODULE-3 : SYSTEM OPERATION-2 (6 Months)
+---------------------------------------------------------------------------------
+13. Operating System and System Programming (Required)
+14. Database 
+15. Data Mining and Warehousing (Required)
+16. Computer Graphics, GPU Interfacing (Required)
+17. Digital Image Processing  
+
+MODULE-4 : INTELLITENCE SYSTEM (4 Months)
+---------------------------------------------------------------------------------
+18. Artificial Intelligence (Required)
+19. Machine Learning (Required)
+20. Pattern Recognition (Required)
+21. Natural Language Processing
+22. Nural Network and Fuzzy System
