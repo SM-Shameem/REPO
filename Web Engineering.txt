@@ -4,14 +4,18 @@ PROFESSIONAL LEVELS 1
 
 MODULE-1 : CODING (6 - 8 Months)
 ---------------------------------------------------------------------------------
-1. JavaScript & AJAX and Typescript 		- 1 Months (JULY)
+1. JavaScript & Typescript	 		- 1 Months (JULY)
 2. HTML & CSS and Sass 				- 1 Months (AUGUST)
-3. Node JS & MySQL and AJAX 			- 1 Months (SEPTEMBER)
-4. XML and JSON 				- 1 Months (OCTOBER)
+3. Node JS & MySQL	 			- 1 Months (SEPTEMBER)
+4. XML, AJAX and JSON 				- 1 Months (OCTOBER)
 5. Bootstrap and JQuery 			- 1 Months (NOVEMBER)
 6. ReactJS 					- 1 Months (DECEMBER)
-7. W3CSS and W3JS and ExpressJS (in this duration)
+7. ExpressJS (in this duration)
 8. Git and GitHub (in this duration)
+## W3CSS and W3JS (Optional)
+## XAMPP, Domain, Hosting and CPanel (Required)
+## Database Design and JavaScript (Projects and Implementation)
+## Web Template and Frameworks (Projects and Implementation)
 
 MODULE-2 : ARCHITECT (6 Months)
 ---------------------------------------------------------------------------------
