@@ -33,7 +33,7 @@ MODULE-3 : DEVOPS (6 Months)
 3. Agile Project Management and MPM 		- 1 Months (SEPTEMBER) (Required) 
 4. DevOps part-1 (Fundamentals, JIRA, JANKINS) 	- 1 Months (OCTOBER) (Required)
 5. DevOps part-2 (CI/CD, Docker) 		- 1 Months (NOVEMBER) (Required)
-#. Advance Development Techniques, Testing and Quality Assurance and DevOps (Implementation)
+## Advance Development Techniques, Testing and Quality Assurance and DevOps (Implementation)
 
 MODULE-4 : ADVANCE WEB DEVELOPMENT (6 Months)
 ---------------------------------------------------------------------------------
@@ -42,10 +42,10 @@ MODULE-4 : ADVANCE WEB DEVELOPMENT (6 Months)
 3. Web Assembly and C++ Packages 		- 1 Months (MARCH) (Required)
 4. Languages and Their Comparison (web) 	- 1 Months (APRIL) (Required)
 5. Web Technology 				- 1 Months (MAY)
-	1. Client Server Achitecture - 10 Days
-	2. Web Rendering System - 10 Days
-	4. Web Multimedia, File System - 10 Days
-# Business Intelligence, Security System and Web Assembly (Implementation)
+	1. Client-Server Architecture - 10 Days
+	2. Web Rendering System (Client and Server) - 10 Days
+	4. Web Multimedia, File Formats and Directory Structure - 10 Days
+## Business Intelligence, Security System and Web Assembly (Implementation)
 
 MODULE-# : UI-UX & MARKETPLACE (WITH MODULE 1, 2 and 3)
 ---------------------------------------------------------------------------------
@@ -55,9 +55,9 @@ MODULE-# : UI-UX & MARKETPLACE (WITH MODULE 1, 2 and 3)
 3. Developer Community and Marketplace		- (JANUARY & FEBRUARY)
 4. Coding and Design Project (Market Analysis) 	- (MARCH)
 5. Client and Buyer (Communication and Bidding) - (APRIL, MAY & JUNE)
-# Local Project Problem Fixing Project (From Community or Any Source) 
-# Preparing and Submitting (Web Template) for (ThemForest)
-# Try to Bid on (Problem Fixing Projects) on (Freelancing Marketplace)
+## Local Project Problem Fixing Project (From Community or Any Source) 
+## Preparing and Submitting (Web Template) for (ThemForest)
+## Try to Bid on (Problem Fixing Projects) on (Freelancing Marketplace)
 
 =================================================================================
 PROFESSIONAL LEVELS 2
