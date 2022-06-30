@@ -1,0 +1,10 @@
+09. Computer Architecture (Required)
+10. Microprocessor and Interfacing (Required)
+11. Microcontroller and Embedded System 
+12. Computer Network and Data Communication (Required)
+
+13. Operating System and System Programming (Required)
+14. Database 
+15. Data Mining and Warehousing (Required)
+16. Computer Graphics, GPU Interfacing (Required)
+17. Digital Image Processing  

@@ -1,0 +1,11 @@
+1. Software Testing, Debugging and Web Debugging 
+2. Software Quality Assurance
+3. Technical Writing and Documentation 
+4. Agile Project Management 
+5. Microsoft Project Management 
+6. DevOps Fundamentals 
+7. Project Management with JIRA
+6. Continuous Integration and Continuous Deployment 
+8. CI/CD with JANKINS and DOCKER
+#. Project Monitoring 
+## Advance Development Techniques, Testing and Quality Assurance and DevOps (Implementation)

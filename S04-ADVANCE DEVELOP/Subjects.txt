@@ -1,0 +1,10 @@
+1. Business Intelligence
+2. E-Commerce
+3. Security System
+4. Web Assembly and C++ Package Management (Conan)
+5. Languages and Their Comparison (Web)
+6. Web Technology 
+	1. Client-Server Architecture
+	2. Web Rendering System (Client and Server)
+	3. Web Multimedia, File Formats and Directory Structure
+## Business Intelligence, Security System and Web Assembly (Implementation)

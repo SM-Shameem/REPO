@@ -1,0 +1,6 @@
+1. Data Structure and Algorithm (Required)
+2. ALgorithm Engineering and Optimization 
+3. Parallel and Distributed System 
+4. Applied Probability, Statistics and Queuing Theory (Required)
+5. System Analysis and Design (Required)
+6. theory of computation

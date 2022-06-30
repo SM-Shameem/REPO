@@ -1,0 +1,12 @@
+1. JavaScript & Typescript	 		
+2. HTML & CSS and Sass 				
+3. Node JS & MySQL	 			
+4. XML, AJAX and JSON 				
+5. Bootstrap and JQuery 			
+6. ReactJS 					
+7. ExpressJS (in this duration)
+8. Git and GitHub (in this duration)
+## W3CSS and W3JS (Optional)
+## XAMPP, Domain, Hosting and CPanel (Required)
+## Database Design and JavaScript (Projects and Implementation)
+## Web Template and Frameworks (Projects and Implementation)

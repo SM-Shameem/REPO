@@ -1,0 +1,5 @@
+18. Artificial Intelligence (Required)
+19. Machine Learning (Required)
+20. Pattern Recognition (Required)
+21. Natural Language Processing
+22. Nural Network and Fuzzy System
