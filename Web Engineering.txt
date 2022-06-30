@@ -87,7 +87,7 @@ MODULE-3 : SYSTEM OPERATION-2 (6 Months)
 16. Computer Graphics, GPU Interfacing (Required)
 17. Digital Image Processing  
 
-MODULE-4 : INTELLITENCE SYSTEM (4 Months)
+MODULE-4 : SYSTEM INTELLITENCE (4 Months)
 ---------------------------------------------------------------------------------
 18. Artificial Intelligence (Required)
 19. Machine Learning (Required)
