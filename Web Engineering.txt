@@ -78,7 +78,7 @@ MARKETPLACE : LOCAL & GLOBAL (3 Months)
 PROFESSIONAL LEVELS 2
 =================================================================================
 
-ENGINEERING-1 : SYSTEM PERFORMANCE (6 Months)
+ENGINEERING-1 : SYSTEM PERFORMANCE (6 - 8 Months)
 ---------------------------------------------------------------------------------
 1. Data Structure and Algorithm (Required)
 2. ALgorithm Engineering and Optimization 
@@ -86,6 +86,9 @@ ENGINEERING-1 : SYSTEM PERFORMANCE (6 Months)
 4. Applied Probability, Statistics and Queuing Theory (Required)
 5. System Analysis and Design (Required)
 6. theory of computation
+## Data Structure and Algorithm (JS Implementation)
+## Parallel and Distributed System (JS Implementation)
+## System Analysis and Design (JS Implementation) 
 
 
 ENGINEERING-2 : SYSTEM OPERATION-1 (4 Months)
@@ -94,31 +97,47 @@ ENGINEERING-2 : SYSTEM OPERATION-1 (4 Months)
 10. Microprocessor and Interfacing (Required)
 11. Microcontroller and Embedded System 
 12. Computer Network and Data Communication (Required) 
+## Computer Interfacing (JS Implementation)
+## Network Interfacing (JS Implementation)
+## Data Communication (JS Implementation) 
 
 
 ENGINEERING-3 : SYSTEM OPERATION-2 (6 Months)
 ---------------------------------------------------------------------------------
 13. Operating System and System Programming (Required)
 14. Database 
-15. Data Mining and Warehousing (Required)
-16. Computer Graphics, GPU Interfacing (Required)
-17. Digital Image Processing  
+15. Computer Graphics, GPU Interfacing (Required)
+16. Digital Image Processing  
+## System Programming (JS Implementation)
+## Database (JS Implementation)
+## Computer Graphics (JS Implementation)
+## GPU Interfacing (JS Implementation)
+## Digital Image Processing (JS Implementation)
 
 
-ENGINEERING-4 : SYSTEM INTELLITENCE (4 Months)
+ENGINEERING-4 : SYSTEM INTELLITENCE (6 - 8 Months)
 ---------------------------------------------------------------------------------
-18. Artificial Intelligence (Required)
-19. Machine Learning (Required)
-20. Pattern Recognition (Required)
+17. Artificial Intelligence (Required)
+18. Machine Learning (Required)
+19. Pattern Recognition (Required)
+20. Nural Network and Fuzzy System
 21. Natural Language Processing
-22. Nural Network and Fuzzy System
-
+22. Data Science (Required)
+23. Data Mining and Warehousing (Required)
+24. Python 
+## Framework (Dejango and TransFlow.js)
+## Artificial Intelligence (JS and Python Implementation)
+## Machine Learnign (JS and Python Implementation)
+## Pattern Recognition (JS and Python Implementation)
+## Nural Network and Fuzzy System (JS and Python Implementation)
+## Data Science (JS and Python Implementation)
+## Data Mining and Warehousing (Implementation)
 
 ENGINEERING-5 : DIGITAL SYSTEM 
 ---------------------------------------------------------------------------------
-23. Discrete Mathematics 
-24. Digital System and Logic Design
-25. Digital Electronics and Puls Techniques
-26. Digital System Design 
-27. Digital Signal Processing 
-28. Electrical and Electronics Introduction 
+25. Discrete Mathematics 
+26. Digital System and Logic Design
+27. Digital Electronics and Puls Techniques
+28. Digital System Design 
+29. Digital Signal Processing 
+30. Electrical and Electronics Introduction 
