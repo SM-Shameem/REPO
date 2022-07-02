@@ -2,7 +2,7 @@
 PROFESSIONAL LEVELS 1
 =================================================================================
 
-MODULE-1 : CODING (6 - 8 Months)
+MODULE-1 : CODING (6 Months)
 ---------------------------------------------------------------------------------
 1. JavaScript & Typescript	 		- 1 Months (JULY)
 2. HTML & CSS and Sass 				- 1 Months (AUGUST)
@@ -24,6 +24,10 @@ MODULE-2 : ARCHITECT (6 Months)
 3. Software Archtiecture 			- 1 Months (MARCH) (Required)
 4. Designing Interface 				- 1 Months (APRIL) (Required)
 5. Software Analysis and Requirements 		- 1 Months (MAY) (Required)
+## Software Design using UML
+## Database Design using UML
+## Software Project Architecture using UML
+## Software Development Techniques
 ## Software Architecture, Designing Interface and Software Requirements Analysis (Implementation)
 
 MODULE-3 : DEVOPS (6 Months)
@@ -94,3 +98,12 @@ MODULE-4 : SYSTEM INTELLITENCE (4 Months)
 20. Pattern Recognition (Required)
 21. Natural Language Processing
 22. Nural Network and Fuzzy System
+
+MODULE-# : DIGITAL SYSTEM 
+---------------------------------------------------------------------------------
+23. Discrete Mathematics 
+24. Digital System and Logic Design
+25. Digital Electronics and Puls Techniques
+26. Digital System Design 
+27. Digital Signal Processing 
+28. Electrical and Electronics Introduction 
