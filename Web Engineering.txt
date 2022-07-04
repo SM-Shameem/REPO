@@ -2,7 +2,7 @@
 PROFESSIONAL LEVELS 1
 =================================================================================
 
-CONSTRUCTION-1 : CODING (6 Months)
+CONSTRUCTION-1 : CODING (6 - 8 Months)
 ---------------------------------------------------------------------------------
 1. JavaScript & Typescript	 		- 1 Months (JULY)
 2. HTML & CSS and Sass 				- 1 Months (AUGUST)
@@ -29,11 +29,12 @@ CONSTRUCTION-2 : UI-UX (with MODULE-1)
 
 ARCHITECT-1 : SOFTWARE DESIGN (6 Months)
 ---------------------------------------------------------------------------------
-1. Web Engineering 				- 1 Months (JANUARY) (Required)
+1. Software Engineering / Web Engineering 	- 1 Months (JANUARY) (Required)
 2. Web Architecture 				- 1 Months (FEBRUARY)
 3. Software Archtiecture 			- 1 Months (MARCH) (Required)
-4. Designing Interface 				- 1 Months (APRIL) (Required)
-5. Software Analysis and Requirements 		- 1 Months (MAY) (Required)
+4. Human-Computer Interaction 			- 1 Months
+5. Designing Interface 				- 1 Months (APRIL) (Required)
+6. Software Analysis and Requirements 		- 1 Months (MAY) (Required)
 ## Software Design using UML
 ## Database Design using UML
 ## Software Project Architecture using UML
