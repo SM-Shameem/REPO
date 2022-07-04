@@ -133,6 +133,7 @@ ENGINEERING-4 : SYSTEM INTELLITENCE (6 - 8 Months)
 ## Data Science (JS and Python Implementation)
 ## Data Mining and Warehousing (Implementation)
 
+
 ENGINEERING-5 : DIGITAL SYSTEM 
 ---------------------------------------------------------------------------------
 25. Discrete Mathematics 
