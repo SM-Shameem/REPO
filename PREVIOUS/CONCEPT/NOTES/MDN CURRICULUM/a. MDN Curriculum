@@ -1,0 +1,107 @@
+-------------------------------------------------------------------------------
+About the Curriculum 
+-------------------------------------------------------------------------------
+01.	The MDN front-end developer curriculum is a structured guide aims to provide 
+    the definitive recommendation for fundamental skills, practices and knowledge 
+    that a front-end web developer should have for employability and longevity 
+    in today’s web industry 
+02.	This curriculum has been created by the MDN team with review and feedback 
+    from experts within Mozilla and throughout the wider MDN community 
+03.	Recommended learning resources are available with this curriculum  
+
+
+-------------------------------------------------------------------------------
+Motivation –
+-------------------------------------------------------------------------------
+01.	Mozilla talks to industry professionals every day, and we regularly get 
+    feedback on the knowledge gaps in new hires 
+--	Hiring managers often observe –
+    a)  Too much of a focus on using frameworks to build web apps quickly, 
+        coupled with a lack of understanding of the underlying technologies 
+        behind these frameworks. 
+    --  This leads to a lack of problem-solving skills and less long-term 
+        employability as tools change 
+    b)  A lack of core best practices such as semantics, accessibility, and 
+        responsive design.
+    --  This results in a lack of user focus, leading to usability limitations 
+    c)  Gaps in the knowledge of how browsers fundamentally work, how they 
+        surface information, and the interactivity you get for free 
+    --  This causes solutions to be overcomplicated and often inaccessible 
+    d)  Limited problem-solving, teamwork, research, and vital soft skills 
+
+02. As a result, we decided to create this curriculum to guide people towards
+    learning a better skill-set, making them more employable, and enabling 
+    them to build a better, more accessible, more responsible web of tomorrow. 
+--  We want them to have the best possible chance of success 
+
+03. This curriculum embodies the values we think the web should have – 
+    accessibility, sustainability, usability, performance, and community 
+
+
+-------------------------------------------------------------------------------
+Scope – 
+-------------------------------------------------------------------------------
+01.	The term (front-end developer) can be ambiguous; it can mean different 
+    things to different people, and working on the front-end can be expected 
+    to do a wide variety of different tasks 
+
+02. What’s covered - 
+    --  This curriculum does not attempt to outline every topic that a web 
+        developer could conceivably be expected to know in-depth. 
+    --  The curriculum covers the following – 
+    a)  Core tech-skills such as semantic HTML, CSS, and JavaScript fundamentals 
+    b)  Best practices such as accessibility, responsive and UI design theory 
+    c)	Key tools such as frameworks and version control 
+    d)  Soft skills for promoting the mindset and attitude is required for job 
+    e)	Environment knowledge like computer and file systems, browsing the web, 
+        command line basics, and code editors 
+    f)  Several (extensions) that we feel constitute useful additional skills to
+        learn as developers start to expand knowledge and develop specialisms.
+    --  This includes – 
+        >	CSS transforms and animation 
+        >	Common categories of Web API (media, graphics, and storage) 
+        >	Performance 
+        >	Security and privacy 
+        >	Testing 
+
+03. Level of detail - 
+    --  This topics presented are covered in differing levels of detail 
+    a)  Some are covered in depth, for example, HTML and CSS fundamentals 
+    --  These are important to have a clear understanding of before a student
+        goes too far on their learning journey 
+    b)  Some are covered more superficially, example, version control or testing 
+    --  It is important to understand what these topics are and get stated with 
+        some basics, but these kinds of skills can be expanded upon as you 
+        continue through your career
+
+03.	What is not covered –
+    --  There are also several areas that we explicitly don’t cover in 
+        this curriculum, namely – 
+    a)	Back-end languages/platforms: Node.js, PHP, Python, .NET, Java, Ruby
+    --  The back-end, by definition, is not of scope for front-end development 
+        curriculum, although you’ll find crossover in full-stack courses 
+    b)  Traditional relational databases (like, MySQL or Postgres) and other 
+        server-side databases (like, cloud databases such as MongoDB or 
+        Google Cloud Data-store) are deemed to be part of the back-end, and 
+        therefore, out of scope
+    --  We do cover client-side storage mechanisms like 
+        (cookies, Web Storage, and IndexedDB), but they have different and 
+        distinct use cases
+    c)  Deep-dive DevOps topics- cloud platforms, for provisioning & automation 
+        (for example, Amazon AWS, Google Cloud Platform, and Microsoft Azure) 
+        and containerization tools (for example, Kubernetes and Docker)
+    --  We do lightly touch upon some tools that are considered to be in 
+        the DevOps space – like GitHub and automated testing tools – but 
+        these have distinct crossover into the front-end developer space  
+    d)  Graphic design beyond the basic knowledge 
+        (outlined in Design for developer)
+    e)  Skills related to roles such as product and program management 
+        (for example, organization, research, and planning) 
+
+    NB:--
+    a)  One exception here is Node.js; it has such a wide range of uses in 
+        modern web development that some rudimentary Node.js knowledge should 
+        be considered essential
+    --	We don’t cover development of Node.js-based application explicitly, 
+        but you will meet it in multiple places in the curriculum as a mechanism 
+        for using various tooling/functionality

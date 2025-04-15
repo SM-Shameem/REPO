@@ -1,0 +1,136 @@
+===============================================================================
+JavaScript First Steps : JavaScript First Steps  
+===============================================================================
+01. JavaScript First Steps 
+02. Prerequisites 
+    > Getting started with the Web (basic JavaScript introduction)
+    > Introduction to HTML 
+    > Introduction to CSS 
+03. Guides > All the topics below 
+04. Assessments > Silly story generator 
+05. See also > Scrimba: Learn JavaScript 
+
+
+===============================================================================
+JavaScript First Steps : What is JavaScript?
+===============================================================================
+01. What is JavaScript 
+02. A high-level definition 
+03. So what can it really do? 
+04. What is JavaScript doing on your page 
+05. How do you add JavaScript to your page? 
+06. Comments 
+07. Summary 
+
+
+===============================================================================
+JavaScript First Steps : A First Splash into JavaScript 
+===============================================================================
+01. A first splash into JavaScript 
+02. Thinking like a programmer 
+03. Example - Guess the number game 
+04. Finished for now 
+
+
+===============================================================================
+JavaScript First Steps : What Went Wrong? Troubleshooting JavaScript 
+===============================================================================
+01. What went wrong? Troubleshooting JavaScript 
+02. Types of error 
+03. An erroneous example 
+04. Fixing syntax errors 
+05. A logic error 
+06. Other common errors 
+07. Summary 
+08. See also 
+
+
+===============================================================================
+JavaScript First Steps : Storing The Information You Need - Variables 
+===============================================================================
+01. Storing the information you need - variables 
+02. Tools you need 
+03. What is a variable? 
+04. Declaring a variable 
+05. Initializing a variable 
+06. A note about var 
+07. Updating a variable 
+08. Variable types 
+09. Dynamic typing 
+10. Constants in JavaScript 
+11. When to use const and when to use let 
+12 Summary 
+
+
+===============================================================================
+JavaScript First Steps : Basic Math in JavaScript - Numbers and Operators 
+===============================================================================
+01. Basic Math in JavaScript 
+02. Everybody loves math 
+03. Arithmetic operators 
+04. Increment and decrement operators 
+05. Assignment operators 
+06. Active learning: sizing a canvas box 
+07. Comparison operators 
+08. Test your skills 
+09. Summary 
+
+
+===============================================================================
+JavaScript First Steps : Handling Text - Strings in JavaScript 
+===============================================================================
+01. Handling Text - Strings in JavaScript 
+02. The poser of words 
+03. Declaring strings 
+04. Embedding JavaScript 
+05. Multiline strings 
+06. Including quotes in strings 
+07. Numbers vs. strings 
+08. Conclusion 
+
+
+===============================================================================
+JavaScript First Steps : Useful String Methods 
+===============================================================================
+01. Useful string methods 
+02. Strings as objects 
+03. Finding the length of a string 
+04. Retrieving a specific string character 
+05. Testing if a string contains a substring 
+06. Finding the position of a substring in a string 
+07. Extracting a substring from a string 
+08. Changing case 
+09. Updating parts of a string 
+10. Active learning examples 
+11. Test your skills 
+12. Conclusion 
+
+
+===============================================================================
+JavaScript First Steps : Arrays 
+===============================================================================
+01. Arrays 
+02. What is an array? 
+03. Creating arrays 
+04. Finding the length of an array 
+05. Accessing and modifying array items 
+06. Finding the index of items in an array 
+07. Adding items 
+08. Removing items 
+09. Accessing every item
+10. Converting between string and arrays 
+11. Active learning: Printing those products 
+12. Active learning: Top 5 searches 
+13. Test your skills 
+14. Conclusion 
+15. See also 
+
+
+===============================================================================
+JavaScript First Steps : Silly Story Generator 
+===============================================================================
+01. Silly story generator 
+02. Starting point 
+03. Project brief 
+04. Steps to complete 
+05. Hints and tips 

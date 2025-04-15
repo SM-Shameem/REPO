@@ -1,0 +1,64 @@
+===============================================================================
+Asynchronous JavaScript : Asynchronous JavaScript    
+===============================================================================
+01. Introducing JavaScript objects 
+02. Prerequisites 
+    > JavaScript first steps 
+    > JavaScript building blocks 
+03. Guide > All the topics below 
+04. Assessments > Sequencing animations  
+05. See also 
+    > Asynchronous Programming 
+    > Eloquent JavaScript 
+
+
+===============================================================================
+Asynchronous JavaScript : Introducing Asynchronous JavaScript   
+===============================================================================
+01. Introducing Asynchronous JavaScript 
+02. Synchronous Programming 
+03. Event handlers 
+04. Callbacks 
+
+
+===============================================================================
+Asynchronous JavaScript : How to Use Promises 
+===============================================================================
+01. How to use promises 
+02. Using the fetch() API 
+03. Chaining promises 
+04. Catching errors 
+05. Promise terminology 
+06. Combining multiple promises 
+07. async and await 
+08. Conclusion 
+09. See also 
+
+
+===============================================================================
+Asynchronous JavaScript : How to Implement a Promise-based API 
+===============================================================================
+01. How to implement a promise-based API 
+02. Implementing and alarm() API 
+03. Using the alarm() API 
+04. Using async and await with the alarm() API 
+05. See also 
+
+
+===============================================================================
+Asynchronous JavaScript : Introducing Workers   
+===============================================================================
+01. Introducing workers 
+02. Using web workers 
+03. Other types of workers 
+04. Conclusion 
+05. See also 
+
+
+===============================================================================
+Asynchronous JavaScript : Sequencing Animations  
+===============================================================================
+01. Sequencing animations 
+02. Starting point 
+03. Project brief 
+04. Steps to complete 

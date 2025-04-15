@@ -1,0 +1,222 @@
+===============================================================================
+Core Modules 
+===============================================================================
+01.	The Core modules cover topics that we feel every web developer should have a 
+    good grounding in
+--	This includes all the information they need to design and build a basic, 
+    accessible web app that follows modern best practices, and manage and deploy 
+    their code using appropriate tools 
+--	Module list –   
+    a)	Web standards 
+    b)	Semantic HTML 
+    c)	CSS fundamentals 
+    d)	CSS text styling 
+    e)  CSS layout 
+    f)	JavaScript fundamentals 
+    g)	Accessibility 
+    h)	Design for developers 
+    i)	Version control 
+
+
+---------------------------
+Web Standards 
+---------------------------
+01.	This module covers the fundamentals of how the web works at a high level – 
+    including the model used for communication, the core technologies involved, 
+    how those technologies are created, and how a web browser renders and 
+    displays web sites to a user 
+02.	General resources (Resilient Web Design – Jeremy Keith)
+03.	Topics are below – 
+    a)	How the web works 
+    b)	The HTML, CSS, and JavaScript triangle 
+    c)	The web standards model 
+    d)	How browsers load webpages 
+
+
+---------------------------
+Semantic HTML 
+---------------------------
+01.	HTML is the technology that defines the content and structure of any website. 
+02.	Written properly, it should also define the semantics (meaning) of the 
+    content in a machine-readable way, which is vital for accessibility, SEO, 
+    and making use for built-in features browsers provide for content to work 
+    optimally 
+03.	This module covers the basics of the language, before looking at key areas 
+    such as document structure, links, lists, images, forms, and more
+04.	General resources (Structuring the web with HTML | Learn HTML and CSS – Scrimba)
+05.	Topics are below – 
+    a)	Basic HTML syntax 
+    b)	Good document structure 
+    c)	Lists 
+    d)	Advanced text techniques 
+    e)	Links 
+    f)	Media 
+    g)	Other interactive elements 
+    h)	HTML tables 
+    i)	Debugging HTML 
+
+
+---------------------------
+CSS fundamentals  
+---------------------------
+01.	It enables you to add style to web pages including color, text, positioning 
+    and layout, animation.
+02.	In this module, we cover all the fundamental language mechanics you need to 
+    understand how CSS works 
+03.	General resources (Learn HTML and CSS – Scrimba) 
+04.	Topics are below – 
+    a)	Basic CSS syntax 
+    b)	Selectors 
+    c)	The box model 
+    d)	Handling conflicts in CSS 
+    e)	Values and units 
+    f)	Sizing 
+    g)	Backgrounds and borders 
+    h)	Overflow 
+    i)  Styling form elements 
+    j)	Debugging CSS 
+
+
+---------------------------
+CSS text styling 
+---------------------------
+01.	This module focuses specifically on CSS font and text styling, including 
+    loading custom web fonts and applying them to your text 
+02.	Topics are below – 
+    a)	Text and font styling 
+    b)	Styling lists and links 
+    c)	Web fonts 
+
+
+---------------------------
+CSS layout 
+---------------------------
+01.	Our final core CSS module looks deep into another crucial topic – creating 
+    layouts for modern websites.
+02.	This module looks at floats, positioning, other modern layout tools, and 
+    building responsive designs that will adapt to different devices, screen sizes, 
+    and resolutions 
+03.	Topics are below – 
+    a)	CSS layout basics 
+    b)	Floats 
+    c)	Positioning 
+    d)	Modern layout 
+    e)	Responsive design 
+
+
+---------------------------
+JavaScript fundamentals 
+---------------------------
+01.	JavaScript is a huge topics, with features, styles, and techniques to learn
+02. And so many APIs and tools built on top of it 
+03.	This module focuses mostly on the essentials of the core language, plus some 
+    key surrounding topics – learning these topics will give you a solid basis to 
+    work from 
+04.	General resources (Learn JavaScript - Scrimba)
+05.	Topics are below – 
+    a)	Variables 
+    b)	Math 
+    c)	Text 
+    d)	Arrays 
+    e)	Conditionals 
+    f)	Loops 
+    g)	Functions 
+    h)	JavaScript object basics 
+    i)	DOM scripting 
+    j)	Events 
+    k)	Async JavaScript basics 
+    l)	Network requests with fetch() 
+    m)	Working with JSON 
+    n)	Libraries and frameworks 
+    o)	Debugging JavaScript 
+
+
+---------------------------
+Design for Developers 
+---------------------------
+01.	The idea of this module is to (re-)introduce developers to design thinking 
+02.	They may not want to work as designers, but having some basic user experience 
+    and design theory is good for everyone involved in building websites, 
+    no matter what their role 
+03.	At the very last, even the most technical, non-designer developer should 
+    understand design briefs, why things are designed as they are, and be able 
+    to get into the mindset of the user 
+04.	And it’ll help them make their portfolios look better 
+ 
+05. In addition, front-end developers are often tasked with doing various bits 
+    of design work on projects 
+06. Clients and employers often assume that they can do it because they are 
+    involved with the visual elements
+07. Historically, web developer used to be more of a hybrid designer/developer 
+    role than it is today 
+08. General resources – 
+    >   The Shape of Design (Frank Chimero)
+    >   Designing for the Web (Mark Boulton)
+    >   Design trampoline: Learn design theory basics (Anna Riazhskikh) 
+    >   Practical Typography (Matthew Butterick)
+    >   Web typography made simple (Hanna Boom)
+    >   Web Style Guide (Patrick J. Lynch and Sarah Horton) 
+    >   Visual design rules you can safely follow every time (Anthony Hobday)
+    >   16 little UI design rules that make a big impact (Adham Dannaway) 
+    >   Learn UI Design Fundamentals (Scrimba)
+09. Topics are below – 
+    a)	Basic design theory 
+    b)  User-centered design 
+    c)  Design briefs 
+
+
+---------------------------
+Accessibility 
+---------------------------
+01. Access to web content such as public services, education, e-commerce sites, 
+    and entertainment is a human right 
+02. No one should be executed based on disability, race, geography, or other human 
+    characteristics 
+03. This module discusses the best practices and techniques should learn to make 
+    websites as accessible as possible 
+04. Topics are below – 
+    a)  Accessibility basics 
+    b)  Accessible styling 
+    c)  Accessible JavaScript 
+    d)  Assistive technology 
+    e)  WAI-ARIA 
+
+
+---------------------------
+Version Control 
+---------------------------
+01. Version control tools are an essential part of modern workflows, for backing 
+    up and collaborating on code-bases 
+--  This module through the essentials of version control using Git and GitHub 
+
+02. Learning outcomes – 
+    a)	Understand why version control systems are necessary 
+    #	Notes – 
+    -   Git and associated social coding sites like GitHub have a lot of 
+        functionality, and can be intimidating and unfriendly to begin with. 
+        In this module discuss the basic, and why it is necessary to have some 
+        experience here before entering the industry 
+    -	Git is the web industry standard for version control has been for some time 
+    b)	Understand the difference between Git, and websites like GitHub and GitLab 
+    c)  Understand GitHub to enable teamwork and collaboration that isn’t so easy 
+        just with plain Git 
+    d)	Basic setup – installing git, signing up for an account for your chosen 
+        social coding site 
+    e)  Handling security requirements, like SSH/GPG keys 
+    f)  Creating a repo 
+    g)  Pushing changes – add, commit, and push 
+    h)  Contribution to others’ repos – forking | creating a new branch | 
+        creating a PR | review flow 
+    i)  Using GitHub pages to publish a sample project 
+    j)  Good housekeeping 
+    #   Regularly update local repos to sync with their remote counterparts. 
+        This includes pulling remote changes to local repo, and installing 
+        package updates (with npm or yarn). Always do this before working on 
+        local repo 
+    #   Use (.gitignore) to ignore all the stuff you don’t want to commit. 
+        Examples include dependencies, dev source files, and OS-level admin 
+        files like (.DS_Store)
+    #   Delete branches you have finished with 
+    k)  Handling merge conflicts 
+
+03. Resources - Git and GitHub

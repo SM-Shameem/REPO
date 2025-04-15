@@ -1,0 +1,458 @@
+===============================================================================
+Core Module : CSS Fundamentals 
+===============================================================================
+01. Basic CSS syntax 
+02. Selectors 
+03. The box model 
+04. Handling conflicts in CSS 
+05. Values and units 
+06. Sizing 
+07. Backgrounds and borders 
+08. Overflow 
+09. Styling form elements 
+10. Debugging CSS 
+
+
+-------------------------------------------------------------------------------
+Basic CSS Syntax 
+-------------------------------------------------------------------------------
+01. Learning outcomes 
+    a)  The purpose of CSS - style, layout, and provide other visual enhancements
+        to web pages (such as animation) 
+    b)  Key CSS syntax - 
+        >   Rules | Selectors | Declarations 
+        >   Properties (including custom properties) 
+        >   Values (including shorthand values)
+        >   At-rules and descriptors 
+    c)  Default browser styles - understand that the browser provides default CSS   
+        styling to HTML elements so that it is in some way usable even with no 
+        user-defined styles at all - 
+    #   Understand also therefore that HTML has nothing to do with styling 
+    #   Use this to reinforce the idea of separating semantics and structure 
+        (semantic HTML) from presentation (CSS), and not using presentational markup
+    #   Study CSS resets, first to prove that browser styles exist and show what a 
+        page looks like when they are removed, but also as a techniques for 
+        providing a blank canvas for developers to build styles on top of 
+    d)  Applying CSS to an HTML document - inline styles, internal stylesheets, 
+        external stylesheets 
+    #   Why external Stylesheets are usually the best option 
+
+02. Resources - 
+    >   What is CSS 
+    >   Getting started with CSS 
+    >   How CSS is structured 
+    >   How CSS works 
+
+
+-------------------------------------------------------------------------------
+Selectors 
+-------------------------------------------------------------------------------
+01. Learning outcomes - 
+    a)  Basic selectors - element type, class, ID - 
+    #   IDs are unique per document - should use ID to select one specific element 
+    #   You can have multiple classes per element, and these can be used to layer 
+        on styles are required 
+    #   IDs and classes should be used sparingly where they mark sense for 
+        selections, but you shouldn't use them for everything - keep your HTML as 
+        clean and uncluttered as possible 
+    b)  Selector lists 
+    c)  Attribute selectors 
+    d)  Combinators 
+    e)   Pseudo-classes and pseudo-elements 
+
+02. Resources - 
+    >   CSS Selectors 
+    >   CSS Selectors - Cheat Sheet for Class, Name, Child Selector List 
+
+
+-------------------------------------------------------------------------------
+The Box Model 
+-------------------------------------------------------------------------------
+01. Learning outcomes - 
+    a)  Block and inline elements 
+    b)  The different boxes that make up an element and how to style them - 
+    #   width and height | margin | border | padding 
+    c)  The alternative box model accessed via (box-sizing: border-box), and 
+        why this is easier to understand (and how it differ from) the standard 
+        box model 
+    d)  Margin collapsing 
+    e)  Basic display values, and how they affect box behavior - 
+        block, inline, inline-block, and none 
+
+02. Resources - 
+    >   The box model 
+    >   Box Model, web.dev (2019)
+
+
+-------------------------------------------------------------------------------
+Handling Conflicts in CSS 
+-------------------------------------------------------------------------------
+01. Learning outcomes - 
+    a)  Understand how rules can conflict in CSS 
+    b)  inheritance 
+    c)  The cascade 
+    d)  The concepts that govern the outcome of CSS conflicts - 
+    #   Specificity | Source order | Importance
+
+02. Resources - Cascade, specificity, and inheritance 
+
+
+-------------------------------------------------------------------------------
+Values and Units 
+-------------------------------------------------------------------------------
+01. Learning outcomes - 
+    a)  Understand that property values can take many different types, and what 
+        these types represent - 
+    #   Numbers, lengths, and percentages 
+    #   Ems and rems 
+    #   Colors | Images | Positions 
+    #   Strings and identifiers 
+    #   Functions 
+    b)  Understand what absolute and relative units are, and the difference 
+        between them 
+
+02. Resources - CSS values and units 
+
+
+-------------------------------------------------------------------------------
+Sizing 
+-------------------------------------------------------------------------------
+01. Learning outcomes - 
+    a)  Intrinsic size 
+    b)  Setting absolute and percentage sizes 
+    c)  min- / max-width and min- / max-height 
+    d)  Viewport units 
+
+02. Resources - 
+    >   Sizing items in CSS 
+    >   Handling different text directions > Logical properties 
+
+
+-------------------------------------------------------------------------------
+Backgrounds and Borders 
+-------------------------------------------------------------------------------
+01. Learning outcomes - 
+    a)  Basic background styling - colors and images 
+    b)  Background image size, repeat, position, and attachment 
+    c)  Background gradients - 
+    #   The general concept of what a background gradient is 
+    #   Linear gradients 
+    #   (Radial, conic, and repeating gradients are more advanced and in-depth
+        coverage is not required at this stage)
+    d)  Accessibility considerations of backgrounds - ensure good contrast 
+    e)  Border basics - border-width, border-style, border-color, 
+        and border-shorthand (e.g. border-top and border) 
+
+02. Resources - Backgrounds and borders 
+
+
+-------------------------------------------------------------------------------
+Overflow 
+-------------------------------------------------------------------------------
+01. Learning outcomes - 
+    a)  Understand what overflow is 
+    b)  Control overflow with (overflow) properties 
+
+02. Resources - Overflowing content 
+
+
+-------------------------------------------------------------------------------
+Styling Form Elements 
+-------------------------------------------------------------------------------
+01. Learning outcomes - 
+    a)  Basic styling of easy-to-style form elements, like <input type="text">
+    b)  Using CSS resets to overcome (<input>)  font styling inheritance and box 
+        styling default differences 
+    c)  Understand that not all form elements are easy to style, and why: 
+    #   System styles are applied to some form elements, making consistent 
+        styling difficult across browsers 
+    #   More complex form elements have internal (shadow DOM) elements that 
+        define the structure of their inner workings
+    --  These are often impossible to access and style individually 
+    d)  Using (appearance: none) to work around system styling for (<input>) 
+        types like (search, checkbox, and radio)
+    e)  Mitigating issues with difficult-to-style types such as 
+        (datetime-local, color, etc)
+    f)  Notes - 
+    --  Conforming to this curriculum module doesn't require having foolproof, 
+        conclusive answers to every possible form styling problem.
+    --  Some form elements are difficult to style, as the resources make clear 
+    --  However, you should at least be able to handle a wide range of form 
+        styling needs and understand the issues around some of the more difficult 
+        styling issues 
+
+02. Resources - 
+    >   Images, media, and form elements 
+    >   Styling web forms 
+    >   Advanced form styling 
+
+
+-------------------------------------------------------------------------------
+Debugging CSS 
+-------------------------------------------------------------------------------
+01. Learning outcomes - 
+    a)  Use the (HTML validator) to see if you have any invalid markup on your 
+        page - this could be causing your CSS to not apply as desired 
+    b)  Use the (CSS validator) to check for badly-formed CSS code.
+    --  Missing semi-colon can cause whole section of CSS declarations to not apply
+    c)  Use browser developer tools to inspect the CSS that is applied to HTML 
+        elements on a page 
+    d)  Modify the applied CSS to figure out what changes are needed to get 
+        what you want 
+    --  This includes enabling and disabling declarations, modifying values, and 
+        adding new declarations 
+    e)  Use layout inspection tools to inspect the box model, grids, flexbox,
+        and other layout features (see also CSS Layout) 
+    f)  Use responsive design model tools to check responsive layouts 
+        (see also 5.5 Responsive design specifics)
+
+02. Resources - 
+    >   Debugging CSS 
+    >   Handling common HTML and CSS problems 
+    >   Firefox > Examine and edit CSS, Firefox Source Docs 
+    >   Firefox > Responsive design mode, Firefox Source Docs 
+
+
+
+
+===============================================================================
+Core Module : CSS Text Styling 
+===============================================================================
+01. Text and font styling 
+02. Styling lists and links 
+03. Web fonts 
+
+
+-------------------------------------------------------------------------------
+Text and font Styling 
+-------------------------------------------------------------------------------
+01. Learning outcomes - 
+    a)  color 
+    b)  Font family, font stacks, web safe fonts 
+    c)  font-size, font-weight, and font-style 
+    d)  text-align, text-transform, and text-decoration 
+    e)  text-shadow 
+    f)  line-height 
+    g)  Notes - 
+    --  There are a large number of other font and text styling properties, and 
+        students should be encouraged to explore more of them as part of their 
+        constant learning 
+
+02. Resources - 
+    >   Fundamental text and font styling 
+    >   Text and typography, web.dev (2021)
+
+
+-------------------------------------------------------------------------------
+Styling List and Links 
+-------------------------------------------------------------------------------
+01. Learning outcomes - 
+    a)  Spacing list items, for example, with (margin or line-height)
+    b)  (list-style) properties 
+    c)  Understand why default link styles are important for usability on the web - 
+        they are familiar and help users recognize links 
+    d)  Styling link states: (:hover, :focus, :visited, and :active)
+    #   Understand why these are necessary for usability and accessibility 
+    e)  Creating a navigation menu with lists and links 
+
+02. Resources - 
+    >   Styling lists 
+    >   Styling links 
+
+
+-------------------------------------------------------------------------------
+Web Fonts 
+-------------------------------------------------------------------------------
+01. Learning outcomes - 
+    a)  Understand that web fonts allow developers to go beyond the web safe 
+        font set and use custom fonts on their web apps 
+    b)  Setup - the (@font-face) at-rule, and (font-family) and (src) descriptors 
+    c)  Using a web font with the (font-family) property 
+    d)  Other descriptors - (font-weight, font-style, etc) 
+    e)  Using an online service to find web fonts and generate web font code, for 
+        example, (Font Squirrel and Google FOnts)
+    f)  Usability implications for web fonts - using several fo them can increase 
+        page download size 
+
+02. Resources - 
+    >   Web fonts 
+    >   Fonts Knowledge, Google Fonts 
+
+
+
+
+===============================================================================
+Core Module : CSS Layout 
+===============================================================================
+01. CSS layout basics 
+02. Floats 
+03. Positioning 
+04. Modern layout 
+05. Responsive design 
+
+
+-------------------------------------------------------------------------------
+CSS Layout Basics 
+-------------------------------------------------------------------------------
+01. Learning outcomes - 
+    a)  Understand that normal flow is the default way a browser lays out block 
+        and inline content 
+    b)  Properties such as (display, float, and position) are intended to change 
+        how the browser lays out content 
+
+02. Resources - 
+    >   Introduction to CSS layout 
+    >   Normal flow 
+
+
+-------------------------------------------------------------------------------
+Floats 
+-------------------------------------------------------------------------------
+01. Learning outcomes - 
+    a)  Understand the purpose of floats - for floating images inside columns of 
+        text, or possibly other fun techniques like drop caps and floating inset 
+        information boxes 
+    b)  Understanding that floats used to be used for multiple-column layouts, 
+        but this is not longer the case now better tools are available 
+        (see 5.4 Modern layout for details) 
+    e)  Using the (float) property to create floats 
+    f)  Clearing floats using (clear), and the (display: flow-root) value 
+
+02. Resources - 
+    >   Floats 
+    >   All About Floats, CSS-Tricks (2021)
+
+
+-------------------------------------------------------------------------------
+Positioning 
+-------------------------------------------------------------------------------
+01. Learning outcomes - 
+    a)  Understand that (static) positioning is the default way elements are 
+        positioned on the page 
+    b)  Relative positioning - 
+    #   Understand that relatively positioned elements remain in the normal flow
+    #   Final layout position can be modified using (top | bottom | elft | right)
+        properties 
+    c)  Absolute positioning 
+    #   Absolute (and fixed/sticky) positioning takes elements completely out of 
+        the normal flow to sit in a separate layer 
+    #   top, bottom, left, right, and inset have different effects on absolutely
+        positioned elements that on relatively-positioned ones 
+    #   Setting the positioning context of a positioned element by positioning an
+        ancestor element 
+    d)  Fixed and sticky positioning 
+    #   Understand how these differ form absolute positioning 
+    e)  Understand what z-index is, and how to control the stacking of positioned 
+        elements with the (z-index) property 
+
+02. Resources - 
+    >   Positioning 
+    >   Position, CSS-Tricks (2022)
+    >   Stacking context 
+
+
+-------------------------------------------------------------------------------
+Modern Layout 
+-------------------------------------------------------------------------------
+01. Learning outcomes - 
+--  Gain an understanding of modern CSS layout techniques - 
+    a)  Understand that, for basic placement tasks, below tools could be overkill
+    --  Learn simple old-school techniques and where they are still effective - 
+    #   Margins and padding for spacing 
+    #   Auto margins for horizontal centering tasks (e.g. margin: 0 auto)
+    b)  Flexbox - 
+    #   Understand the purpose of flexbox - flexibly lay out a set of block or 
+        inline elements in one dimension 
+    #   Understand flex terminology - flex container, flex item, main axis, and 
+        cross axis 
+    #   (display: flex), and what it gives you by default 
+    #   Rows and columns, and how to wrap content onto new rows and columns 
+    #   Flexible sizing of flex items 
+    #   Justifying and aligning content 
+    #   Adjusting flex item ordering 
+    c)  CSS Grid - 
+    #   Understand the purpose of CSS Grid - flexibly lay out a set of block or 
+        inline elements in tow dimensions 
+    #   Understand grid terminology - rows, columns, gaps, and gutters 
+    #   (display: grid), and what it gives you by default 
+    #   Defining grid rows and columns - The (fr) unit | minmax()
+    #   Defining gaps 
+    #   Positioning elements on the grid 
+
+02. Resources - 
+    >   Flexbox 
+    >   Grids 
+
+
+-------------------------------------------------------------------------------
+Responsive Design 
+-------------------------------------------------------------------------------
+01. Learning outcomes - 
+    a)  Understand what responsive design is - designing web layouts so that they
+        are flexible and work well across different device screen sizes, 
+        resolutions, etc 
+    b)  Understand the relationship between modern layout tools such as grid and 
+        flexbox, and responsive design 
+    c)  Media queries - 
+    #   The mobile-first technique
+    #   Understand breakpoints 
+    #   Using (width and height) media queries to create responsive layouts 
+    d)  <meta viewport="">, and how to use it to get web documents to display 
+        appropriately on mobile devices 
+    #   For the sake of accessibility, never set (user-scalable=no)
+
+02. Resources- 
+    >   Responsive design 
+    >   Beginner's guide to media queries 
+
+
+
+
+===============================================================================
+Core Module : Design for Developers 
+===============================================================================
+01. Basic Design Theory 
+02. User-centered Design 
+03. Design Briefs 
+
+
+-------------------------------------------------------------------------------
+Basic Design Theory 
+-------------------------------------------------------------------------------
+01. Learning outcomes -
+    a)  UI design fundamentals - 
+    #   Contrast | Typography | Visual Hierarchy
+    #   Scale | Alignment | Use of whitespace 
+    b)  Color theory 
+    c)  Use of images 
+
+02. Resources - Fundamental Text and font styling 
+
+
+-------------------------------------------------------------------------------
+User-centered Design 
+-------------------------------------------------------------------------------
+01. Learning outcomes - 
+    a)  Understand that everything we do is for the user 
+    b)  Intro to user research/testing, and user requirements 
+    c)  Design for accessibility - consider the target audience and what additional 
+        needs they may have. Design for those from the very start 
+    d)  Understand what design patterns are, and the common patterns used on the 
+        web, for example - 
+    #   Dark mode | Breadcrumbs | Cards | Deferred/Lazy registration 
+    #   Infinite scroll | Modal dialogs | Progressive disclosure 
+    #   Progress Indication on Forms/Registration/Setup | Shopping cart 
+
+02. Resources - 
+    >   Accessibility overview 
+    >   Inclusive design principles, inclusivedesignprinciples.org
+
+
+-------------------------------------------------------------------------------
+Design Briefs 
+-------------------------------------------------------------------------------
+01. Learning outcomes - 
+    a)  Speaking design language, to communicate with designers 
+    b)  Interpreting design brief requirements to produce an implementation 
+    c)  Typical tools designers use to get their message across to developers 
+        (e.g. Figma)

@@ -1,0 +1,255 @@
+===============================================================================
+CSS Building Blocks : CSS Building Blocks 
+===============================================================================
+01. CSS building blocks 
+02. Prerequisites 
+03. Guides 
+04. Assessments 
+
+
+===============================================================================
+CSS Building Blocks : CSS Selectors 
+===============================================================================
+01. CSS selectors 
+02. What is a selector 
+03. Selector lists 
+04. Types of selectors 
+05. Summary 
+
+
+===============================================================================
+CSS Building Blocks : Type, Class, and ID Selectors 
+===============================================================================
+01. Type, class and ID selectors 
+02. Type selectors 
+03. The universal selector 
+04. Class selectors 
+05. ID selectors 
+06. Summary 
+
+
+===============================================================================
+CSS Building Blocks : Attribute Selectors 
+===============================================================================
+01. Attribute selectors 
+02. Presence and value selectors 
+03. Substring matching selectors 
+04. Case-sensitivity 
+05. Summary 
+
+
+===============================================================================
+CSS Building Blocks : Pseudo-Classes and Pseudo-Elements 
+===============================================================================
+01. Pseudo-classes and pseudo-elements 
+02. What is a pseudo-class 
+03. What is a pseudo-element 
+04. Combining pseudo-classes and pseudo-elements 
+05. Generating content with ::before and ::after 
+06. Summary | See also
+
+
+===============================================================================
+CSS Building Blocks : Combinators 
+===============================================================================
+01. Combinators 
+02. Descendant combinator 
+03. Child combinator 
+04. Next-sibling combinator 
+05. Subsequent-sibling combinator 
+06. Creating complex selectors with nesting 
+07. Using combinators 
+08. Test your skills 
+09. Summary 
+
+
+===============================================================================
+CSS Building Blocks : Cascade, Specificity, and Inheritance 
+===============================================================================
+01. Cascade, specificity, and inheritance 
+02. Conflicting rules 
+03. Understanding how the concepts work together 
+04. Understanding inheritance 
+05. Understanding the cascade 
+06. The effect of CSS location 
+07. Test your skills 
+08. Summary 
+
+
+===============================================================================
+CSS Building Blocks : Cascade Layers 
+===============================================================================
+01. Cascade layers 
+02. Review of the cascade concept 
+03. Overview of cascade layers 
+04. Creating cascade layers 
+05. Overview of nested cascade layers 
+06. Determining the precedence based on the order of layers 
+07. Test your skills 
+08. Summary 
+
+
+===============================================================================
+CSS Building Blocks : The Box Model 
+===============================================================================
+01. The box model 
+02. Block and inline boxes 
+03. Outer display type 
+04. Inner display type 
+05. Examples of different display types 
+06. What is the CSS box model 
+07. Playing with box models 
+08. Margins, padding, and borders 
+09. The box model and inline boxes 
+10. Using display: inline-block 
+11. Test your skills 
+12. Summary 
+
+
+===============================================================================
+CSS Building Blocks : Backgrounds and borders 
+===============================================================================
+01. Backgrounds and borders 
+02. Styling backgrounds in CSS 
+03. Borders 
+04. Test your skills 
+05. Summary 
+
+
+===============================================================================
+CSS Building Blocks : Handling Different Text Directions 
+===============================================================================
+01. Handling different text directions 
+02. What are writing modes 
+03. Writing modes and block and inline layout 
+04. Logical properties and values 
+05. Test your skills 
+06. Summary 
+
+
+===============================================================================
+CSS Building Blocks : Overflowing content 
+===============================================================================
+01. Overflowing content 
+02. What is overflow 
+03. CSS tries to avoid "data loss"
+04. The overflow property 
+05. Overflow establishes a Block Formatting Context 
+06. Unwanted overflow in web design 
+07. Test your skills 
+08. Summary 
+
+
+===============================================================================
+CSS Building Blocks : CSS Values and Units 
+===============================================================================
+01. CSS values an units 
+02. What is a CSS value 
+03. Numbers, lengths, and percentages 
+04. Color 
+05. Images 
+06. Position 
+07. Strings and identifiers 
+08. Functions 
+09. Test your skills 
+10. Summary 
+
+
+===============================================================================
+CSS Building Blocks : Sizing Items in CSS 
+===============================================================================
+01. Sizing items in CSS 
+02. The natural or intrinsic size of things 
+03. Setting a specific size 
+04. min- and max- sizes 
+05. Viewport units 
+06. Test you skills 
+17. Summary 
+
+
+===============================================================================
+CSS Building Blocks : Images, Media, and Form Elements 
+===============================================================================
+01. Images, media, and form elements 
+02. Replaced elements 
+03. Sizing images 
+04. Replaced elements in layout 
+05. Form elements 
+06. Test your skills 
+07. Summary 
+
+
+===============================================================================
+CSS Building Blocks : Styling Tables 
+===============================================================================
+01. Styling tables 
+02. A typical HTML table 
+03. Styling our table 
+04. Table styling quick tips 
+05. Test your skills 
+06. Summary 
+
+
+===============================================================================
+CSS Building Blocks : Advanced Styling Effects 
+===============================================================================
+01. Advanced styling effects 
+02. Box shadows 
+03. Filters 
+04. Blend modes 
+05. CSS shapes 
+06. -webkit-background-clip: text 
+07. summary 
+
+
+===============================================================================
+CSS Building Blocks : Debugging CSS 
+===============================================================================
+01. Debugging CSS 
+02. How to access browser DevTools 
+03. The DOM versus view source 
+04. Inspecting the applied CSS 
+05. Editing values 
+06. Adding a new property 
+07. Understanding the box model 
+08. Solving specific issues 
+09. Find out more about the Firefox DevTools 
+10. Debugging problems in CSS 
+11. Summary 
+
+
+===============================================================================
+CSS Building Blocks : Organizing Your CSS 
+===============================================================================
+01. Organizing your CSS 
+02. Tips to keep your CSS tidy 
+03. Other tools that can help 
+04. BEM 
+05. Summary 
+
+
+===============================================================================
+CSS Building Blocks : Fundamental CSS Comprehension 
+===============================================================================
+01. Fundamental CSS comprehension 
+02. Starting point 
+03. Project brief 
+04. Hints and tips 
+
+
+===============================================================================
+CSS Building Blocks : Creating Fancy Letter-headed Paper 
+===============================================================================
+01. Creating fancy letter-headed paper 
+02. Starting point 
+03. Project brief 
+04. Hints and tips 
+
+
+===============================================================================
+CSS Building Blocks : A Cool-Looking Box 
+===============================================================================
+01. A cool-looking box 
+02. Starting point 
+03. Proejct brief 
+04. Hints and Tips 

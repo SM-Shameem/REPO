@@ -1,0 +1,65 @@
+===============================================================================
+Angular : Getting Started with Angular 
+===============================================================================
+01. Getting started with Angular 
+02. What is Angular 
+03. What you'll build 
+04. Prerequisites 
+    > Node.js
+    > npm package manager 
+05. Creating an angular application 
+06. Get familiar with your angular application 
+07. The structure of an angular application 
+08. Summary 
+
+
+===============================================================================
+Angular : Beginning Our Angular todo List App 
+===============================================================================
+01. Beginning our angular todo list app 
+02. The to-do application structure 
+03. Define item 
+04. Add logic to AppComponent 
+05. Add HTML to the AppComponent template 
+06. Add items to the list 
+07. Summary 
+
+
+===============================================================================
+Angular : Styling Our Angular App 
+===============================================================================
+01. Styling our angular app 
+02. Adding some style to Angular 
+03. Summary 
+
+
+===============================================================================
+Angular : Creating An Item Component 
+===============================================================================
+01. Creating an item component 
+02. Creating the new component 
+03. Add HTML for the ItemComponent 
+04. Prepare the AppComponent 
+05. Add logic to ItemComponent 
+06. Use the ItemComponent in the AppComponent 
+07. Add styles to ItemComponent 
+08. Summary 
+
+
+===============================================================================
+Angular : Filtering Our to-do Items 
+===============================================================================
+01. Filtering our to-do items 
+02. Our filtering code 
+03. Adding filter controls 
+04. Summary 
+
+
+===============================================================================
+Angular : Building Angular Applications and Further Resources 
+===============================================================================
+01. Building angular applications and further resources 
+02. Building your finished application
+03. Deploying your application
+04. What's next 
+05. Summary 

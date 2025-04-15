@@ -1,0 +1,126 @@
+===============================================================================
+Complete Beginners Guide
+===============================================================================
+01. Learn Web Development 
+02. Getting Stated with The Web 
+03. The story of your first website 
+04. Guides 
+    a)   Installing basic software 
+    b)   What will you website look like 
+    c)   Dealing with files 
+    d)   HTML basics 
+    e)   CSS basics 
+    f)   JavaScript basics 
+    g)   Publishing your sample code 
+    h)   How the web works 
+05. See also 
+    >   Web Demystified 
+    >   The web and web standards 
+
+
+-------------------------------------------------------------------------------
+Installing Basic Software 
+-------------------------------------------------------------------------------
+01. What tools do I actually need, right now 
+    >   Installing a text editor 
+    >   Installing modern web browsers 
+    >   Installing a local web server 
+02. What tools do the professionals use 
+
+
+-------------------------------------------------------------------------------
+What will Your Website Look Like 
+-------------------------------------------------------------------------------
+01. First things first: planning 
+02. Sketching out your design 
+03. Choosing your assets 
+    >   Text 
+    >   Theme color 
+    >   Images 
+    >   Font 
+
+
+-------------------------------------------------------------------------------
+Dealing with Files 
+-------------------------------------------------------------------------------
+01. Where should your website live on your computer 
+02. An aside on casing and spacing 
+03. What structure should your website have 
+04. File paths 
+05. What else should be done 
+
+
+-------------------------------------------------------------------------------
+HTML Basics 
+-------------------------------------------------------------------------------
+01. So what is HTML 
+    >   Anatomy of an HTML element 
+    >   Nesting elements 
+    >   Void elements 
+    >   Anatomy of an HTML document 
+02. Images 
+03. Marking up text 
+    >   Headings 
+    >   Paragraphs 
+    >   Lists 
+04. Links 
+05. Conclusion 
+
+
+-------------------------------------------------------------------------------
+CSS Basics 
+-------------------------------------------------------------------------------
+01. What is CSS 
+    >   Anatomy of a CSS rule-set 
+    >   Selecting multiple elements 
+    >   Different types of selectors 
+02. Fonts and Text 
+03. CSS: All about boxes 
+    >   Changing the page color 
+    >   Styling the body 
+    >   Positioning and styling the main page title 
+    >   Centering the image 
+04. Conclusion 
+
+
+-------------------------------------------------------------------------------
+JavaScript Basics 
+-------------------------------------------------------------------------------
+01. What is JavaScript 
+02. A "Hello world!" example 
+    >   What happend 
+03. Language basics crash course 
+    >   Variables 
+    >   Comments 
+    >   Operators 
+    >   Conditionals 
+    >   Functions 
+    >   Events 
+04. Supercharging out example website
+    >   Adding an image changer 
+    >   Adding a personalized welcome message 
+    >   A user name of unll 
+05. Conclusion 
+
+
+-------------------------------------------------------------------------------
+Publishing Your Website 
+-------------------------------------------------------------------------------
+01. What are the options 
+    >   Getting hosting and a domain name 
+    >   Using an online tool like GitHub or Google App Engine 
+    >   Using a web-based IDE such as CodePen 
+02. Publishing via GitHub
+03. Further reading 
+
+
+-------------------------------------------------------------------------------
+How The Web Works 
+-------------------------------------------------------------------------------
+01. Clients and servers 
+02. The other parts of the toolbox 
+03. So what happens, exactly 
+04. Order in which component files are parsed 
+05. DNS explained 
+06. Packets explained 
+07. See also and Credit 

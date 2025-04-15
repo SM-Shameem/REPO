@@ -1,0 +1,331 @@
+===============================================================================
+Extension Module : Performance
+===============================================================================
+01. Performance basics 
+02. Improving page rendering 
+03. Measuring performance 
+04. CSS and performance 
+05. JavaScript and performance 
+
+
+-------------------------------------------------------------------------------
+Performance Basics 
+-------------------------------------------------------------------------------
+01. Learning outcomes - 
+    a)  Understand the Concepts of real performance and perceived performance 
+        and the difference between the two 
+    b)  Understand key performance concepts - 
+    #   Source order | Critical Path | Latency | How a browser renders pages 
+    c)  Understand hwo performance impacts sustainability - good performance 
+        can have a positive impact on the planet by reducing energy usage and
+        bandwidth consumption - 
+    #   Energy efficiency - 
+    >   Code performance (see 4.5 JavaScript and performance) 
+    >   Static power draw (idle state) 
+    #   Hardware efficiency (repairability/utilization)
+    #   Demand efficiency - 
+    >   Spatial (where do you perform computations) 
+    >   Temporal (when do you perform computations)
+
+02. Resources - 
+    >   The "why" of web performance 
+    >   What is web performance 
+    >   Perceived performance 
+
+
+-------------------------------------------------------------------------------
+Improving Page Rendering 
+-------------------------------------------------------------------------------
+01. Learning outcomes - 
+    a)  How to reduce page loading times - 
+    #   Use optimal media formats and compression 
+    #   Remove unnecessary audio form muted video 
+    #   Use video preload attribute to reduce upfront downloads 
+    #   Considering using adaptive streaming 
+    #   Reducing media loading jank with width and height attributes 
+    #   Be careful about font choices - keep file sizes as small as possible, for
+        example by including only the glyphs, variants, and weights you need 
+    b)  How to improve "time to usable"
+    #   Minimize initial load by showing only important content initially. 
+    --  Make important interactive features interactive as soon as possible 
+    #   Additional data and resources can be loaded in the background as users 
+        are using the page 
+    #   Use lazy loading for images and other resources that are not 
+        immediately needed
+    c)  How to improve the perceived performance of features - 
+    #   Use animations to transition between states rather than making the user 
+        wait for the end state 
+    #   Use loading spinners and progress bars to indicate progress, so the user 
+        feels like something is happening 
+    #   Use event wisely, e.g. trigger actions on (keydown) rather than waiting 
+        for (keyup)
+
+02. Resources - 
+    >   Perceived performance 
+    >   Multimedia: Images 
+    >   Multimedia: Video 
+
+
+-------------------------------------------------------------------------------
+Measuring Performance 
+-------------------------------------------------------------------------------
+01. Learning outcomes - 
+    a)  Understand key metrics for measuring performance, for example first 
+        contentful paint, speed index, total blocking time, bounce rate, 
+        unique users/page views 
+    b)  How to use common performance measurement tools - 
+    #   Google Lighthouse 
+    #   Pagespeed Insights 
+    #   WebPageTest 
+    #   Google Analytics 
+    #   Browser DevTools 
+    c)  How to use performance Web APIs to create your own performance 
+        measurement tools - 
+    #   Performance Timeline API
+    #   Navigation TIming API 
+    #   User Timing API 
+    #   Resource TIming API 
+
+02. Resources - 
+    >   Measuring performance 
+    >   Performance APIs reference 
+    >   Google Lighthouse > Performance 
+    >   Relevant Firefox DevTools: Network Monitor and Performance Monitor -
+        Firefox Source Docs 
+    >   Relevant Chrome DevTools: Inspect network activity (2019) and 
+        Analyze runtime performance (2017) - developer.chrome.com
+
+
+-------------------------------------------------------------------------------
+CSS and Performance 
+-------------------------------------------------------------------------------
+01. Learning outcomes - 
+    a)  Understand techniques for improving CSS performance - 
+    #   Only load when needed; optimize with media queries 
+    #   Minimize animation, and force animation on the GPU 
+    #   Minimize repaints 
+    #   Use (will-change) and (contain) appropriately 
+
+02. Resources - CSS performance optimization 
+
+
+-------------------------------------------------------------------------------
+JavaScript and Performance 
+-------------------------------------------------------------------------------
+01. Learning outcomes - 
+    a)  Understand techniques for improving JavaScript performance - 
+    #   Reduce the amount of JavaScript you use 
+    #   Only load JavaScript when needed, and remove unused code 
+    #   Use deferred/async JavaScript appropriately.
+    #   Compressing, packing, and splitting JavaScript 
+
+02. Resources - JavaScript performance 
+
+
+
+
+===============================================================================
+Extension Module : Security and Privacy 
+===============================================================================
+01. Security and privacy basics 
+02. Data protection laws 
+
+
+-------------------------------------------------------------------------------
+Security and Privacy Basics 
+-------------------------------------------------------------------------------
+01. Notes - 
+    a)  Conforming to all of the criteria in this module is not going to result in 
+        a student being a qualified security engineer, but equally it is important  
+        for web developers to understand the basics of web security and privacy 
+    b)  It is also important for students to understand that a lot of security 
+        issues are caused by problems with server-side code, or a combination of 
+        client-side and server-side code.
+    --  A lot of code should present very few security risks, provided the browser
+        is doing its job properly 
+
+02. Learning outcomes - 
+    a)  Understand the difference between security and privacy 
+    b)  Understand the general HTTP model from a high-level 
+    c)  Learn what HTTPS is, and why it is important 
+    d)  Same-origin security - 
+    #   Why this is fundamental to the web 
+    #   Ways of working around it safely, such as Cross-Origin Resources Sharing 
+    e)  How cookies are stored, and their security and privacy implications, 
+        such as tracking 
+    f)  Learn about situations where security issues generally occur - 
+    #   When asking users to provide sensitive data (such as passwords or credit
+        card data) and transmitting it to a server 
+    #   When requesting data from a server 
+    #   When transmitting data between servers (for example, if a server requests 
+        data from a web service)
+    #   When preserving user state by setting a cookie or other mechanisms 
+    g)  Learn about common security threats and how to mitigate them - 
+    #   Cross-site scripting (XSS)
+    #   Cross-site request forgery (CSRF)
+    #   Clickjacking 
+    #   Denial of service (DoS)
+    h)  Understand the purpose of other important technologies, such as - 
+    #   Content Security Policy (CSP)
+    #   Permissions-Policy 
+    #   The web model for user activation of "Powerful features" 
+        (aka transient activation) 
+
+02. Resources - 
+    >   Security on the web 
+    >   Website security 
+    >   Privacy on the Web 
+
+
+-------------------------------------------------------------------------------
+Data Protection Laws
+-------------------------------------------------------------------------------
+01. Learning outcomes - 
+    a)  Understand fundamental concepts related to user privacy - 
+    #   Personally identifiable information (PII)
+    #   Confidentiality 
+    #   Tracking 
+    #   Fingerprinting 
+    b)  Be aware of regional privacy laws, for example - 
+    #   General Data Protection Regulation (GDPR) - (EU)
+    #   Data Protection Act 2018 - (UK), gov.uk 
+    #   California Consumer Privacy Act (2018) - (US, CA), ca.gov.
+    #   Children's Online Privacy Protection Rule (COPPA) - (US), ftc.gov.
+    e)  Understand hwo to comply with such laws, in terms of practical 
+        implementation 
+    #   Notes - 
+    --  Conforming to the above criteria does not require students to become 
+        legal experts in privacy laws, but they should understand the 
+        implications of these laws, and how that affects their work 
+
+02. Resources - Complete guide to GDPR compliance, gdpr.eu
+
+
+
+
+===============================================================================
+Extension Module : Testing
+===============================================================================
+01. General testing fundamentals 
+02. Functional and compact testing 
+03. Usability testing 
+
+
+-------------------------------------------------------------------------------
+General Testing Fundamentals 
+-------------------------------------------------------------------------------
+01. Learning outcomes - 
+    a)  Understand the overall purposes to testing - 
+    #   To make sure that the functionality of an app works (and continues to work)
+        for the intended target audience to a chosen level of quality 
+    #   To make sure that the code and functionality meet chosen standards of
+        quality and conform to set conformance criteria, benchmarks, or guidelines 
+    b)  The purpose of common test types - 
+    #   Functional testing (related to unit testing) - Checking that the features 
+        and functions of the web app are working as expected, e.g. user interaction, 
+        forms, navigation, links, and other core functionalities 
+    #   Usability testing - evaluating the user-friendliness of the web app.
+    --  This involves assessing how easy it is for users to navigate the app,
+        complete tasks, and achieve their goals 
+    #   Compatibility testing (aka cross-browser testing) - Ensuring that the web 
+        app functions correctly across different browsers, operating systems,
+        and devices 
+    #   Performance testing - Measuring the responsiveness, speed, scalability, 
+        and stability of the web app under different workloads 
+        (see also Extension 4: Performance) 
+    #   Security Testing - Identifying vulnerabilities and weaknesses in the web 
+        app's security mechanisms (see also Extension 5 Security and privacy)
+    #   Accessibility Testing - Ensuring that the web app can be used by people 
+        with disabilities, conforming to accessibility guidelines such as the web 
+        Content Accessibility Guidelines (see also Accessibility) 
+
+
+-------------------------------------------------------------------------------
+Functional and Compat Testing 
+-------------------------------------------------------------------------------
+01. Learning outcomes - 
+    a)  Understand that the two are closely related - you will want your web app 
+        functionality to work for a target range of users, across a range to 
+        target browsers/devices. 
+    --  In addition, such testing can largely be automated using available tools 
+    b)  Some accessibility testing ca bne automated, for example, 
+        "do the images all have alt text?".
+    c)  A typical process for performing automated tests - 
+    #   Identifies the target audience groups, and what browsers they are using
+    #   Identify the items of functionality that should be tested. 
+    --  These cna range from visual ("does the layout look like it should?"), to 
+        user-facing functions ("does the search box return a result?"), to 
+        lower-level code ("does function x() return the expected result?")
+    #   Some tests will also test that integrated modules are working correctly 
+        with other parts of the codebase (integration testing) 
+    #   Write tests to test this functionality, using an appropriate tool set.
+    #   Run the tests regularly (for example after each commit to the repo) to 
+        see if any tests fail 
+    #   Document the test results 
+    #   Fix the code and rerun the tests to make sure the pass, and ensure that
+        new errors have not been introduced by the code updates (regression testing)
+    d)  Understand the typical toolset used to run automated tests - 
+    #   Use a combination of physical devices and virtual machines (like VirtualBox)
+        to make the different browser and device combinations available 
+    #   Use (Selenium/WebDrive) to run specific tests on installed browsers and 
+        return results, alerting you to failures in browsers as they appear.
+    --  Packages such as (webdriver.io and nightwatch.js) can be used to control
+        WebDriver via Node.js code (other platform integrations also exist)
+    #   (Playwright) is a popular alternative 
+    #   Write your own functional tests right inside your codebase, using a 
+        library like (Jest or Mocha) 
+    #   Use a cloud-based service to do automated cross-browser functional testing,
+        such as (lambdaTest, Sauce Labs, BrowserStack, or TestingBot) 
+    --  Most of these services have APIs available, allowing you to run tests from
+        a platform like Node.js 
+    e)  Understand how to integrate testing with GitHub using 
+        continuous Integration (CI) tools 
+    #   Understand the utility of this - you can create a setup to automatically 
+        run your test suite each time you commit a change to the codebase 
+    #   Use tools such as (CircleCI or Travis CI) to do this 
+
+02. Resources - Cross-browser testing 
+
+
+-------------------------------------------------------------------------------
+Usability Testing 
+-------------------------------------------------------------------------------
+01. Learning outcomes - 
+    a)  Understand how usability testing differs from functional testing - 
+        whereas functional testing can largely be automated (if largely look at 
+        whether some code returns an expected result), usability testing tends to 
+        require manual testing with real test subjects (e.g. "does the page allow 
+        me to find the most important functionality and is it intuitive to use?")
+    b)  Some accessibility testing should be done manually as a subset of usability 
+        testing - for example, you might be able to tab to the form elements to 
+        fill them in, but does the form make sense to an assistive technology user?
+    --  Can they tell what information it is asking them for?
+    c)  A typical process for usability testing - 
+    #   Identify the aspects of the app functionality you want to test 
+        (these can be in the form of hypotheses or problem statements want to test),
+        and what target audience segments would be most appropriate to test them 
+    #   Recruit some test subjects for you to do the testing with 5-10 successful 
+        sessions should be enough to start to identify recurring usability problems 
+    #   Write scripts for your test subjects to follow that will test functionality 
+        (for example, "navigate to the product page, search for a widget, and 
+        one to your shopping cart")
+    #   Run the usability tests with your test subjects and record the sessions 
+    #   Analyze the sessions, and identify key improvements to make 
+    #   Make the improvements 
+    #   Measure whether the improvements fixed the problem (for example by looking
+        for changes in key metrics, or by rerunning the usability test with a new 
+        cohort of test subjects.)
+    d)  A typical toolset for running a usability test 
+    #   Clear instructions are needed: Explain purpose of test of the test subject
+    --  Instruct them to think aloud while performing the tasks 
+    --  Observe their interactions and take notes on any issues or difficulties 
+        they encounter 
+    --  Encourage participants to provide honest feedback 
+    #   Video conferencing software such as Zoom, which includes screen-sharing 
+        functionality so you can observe what the test subjects are doing, and the 
+        ability to record the session so you can review it later 
+    #   Eye-tracking software cna be useful, to allow you to see what the user 
+        looks at on the website as they try to allow your script 
+
+02  Resources - Usability testing 101, nngroup.com (2019)
+    

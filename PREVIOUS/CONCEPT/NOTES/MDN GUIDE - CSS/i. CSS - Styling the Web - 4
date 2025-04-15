@@ -1,0 +1,174 @@
+===============================================================================
+CSS Layout : CSS Layout 
+===============================================================================
+01. CSS layout 
+02. Prerequisites > HTML and CSS 
+03. Guides > all topics are listed below 
+04. Assessments > Fundamental layout comprehension 
+05. See also 
+    > Practical positioning examples 
+    > CSS layout cookbook 
+    
+
+===============================================================================
+CSS Layout : Introduction to CSS Layout 
+===============================================================================
+01. Introduction to CSS layout 
+02. Normal flow 
+03. The display property 
+04. Flexbox 
+05. Grid layout 
+06. Floats 
+07. Positioning techniques 
+08. Table layout 
+09. Multi-column layout 
+10. Summary 
+
+
+===============================================================================
+CSS Layout : Normal Flow 
+===============================================================================
+01. Normal flow 
+02. How are elements laid out by default? 
+03. Summary 
+
+
+===============================================================================
+CSS Layout : Flexbox 
+===============================================================================
+01. Flexbox 
+02. Why flexbox?
+03. Introducing a simple example 
+04. Specifying what elements to lay out as flexible boxes 
+05. The flex model 
+06. Columns or rows? 
+07. Wrapping 
+08. flex-flow shorthand 
+09. Flexible sizing of flex items 
+10. flex: shorthand versus longhand 
+11. Horizontal and vertical alignment 
+12. Ordering flex items 
+13. Nested flex boxes 
+14. Test your skills 
+15. Summary 
+16. See also 
+
+
+===============================================================================
+CSS Layout : Grids 
+===============================================================================
+01. Grids 
+02. What is grid layout? 
+03. Creating your grid in CSS 
+04. Line-based placement 
+05. Positioning with grid-template-areas 
+06. Nesting grids and sub-grid 
+07. Grid frameworks
+08. Test your skills 
+09. Summary 
+10. See also 
+
+
+===============================================================================
+CSS Layout : Floats 
+===============================================================================
+01. Floats 
+02. The background of floats 
+03. A float example 
+04. Clearing floats 
+05. Clearing boxes wrapped around a float 
+06. Test your skill
+07. Summary 
+
+
+===============================================================================
+CSS Layout : Positioning 
+===============================================================================
+01. Positioning 
+02. Introducing positioning 
+03. Static positioning 
+04. Relative positioning 
+05. Absolute positioning 
+06. Fixed positioning 
+07. Sticky positioning 
+08. Test your skills 
+09. Summary 
+10. See also 
+
+
+===============================================================================
+CSS Layout : Multiple-Column Layout 
+===============================================================================
+01. Multiple-column layout 
+02. A basic example 
+03. Styling the column 
+04. Spanning column 
+05. Columns and fragmentation 
+06. Test your skills 
+07. Summary 
+08. See also 
+
+
+===============================================================================
+CSS Layout : Responsive Design 
+===============================================================================
+01. Responsive design 
+02. Precursor to responsive design: mobile web design 
+03. INtroducing responsive web design 
+04. Media Queries 
+05. Responsive layout technologies 
+06. Responsive images/media 
+07. Responsive typography 
+08. The viewport meta tag 
+09. Summary 
+10. See also 
+
+
+===============================================================================
+CSS Layout : Beginner's Guide to Media Queries 
+===============================================================================
+01. Beginner's guide to media queries 
+02. Media query basics 
+03. More complex media queries 
+04. How to choose breakpoints 
+05. Active learning: mobile first responsive design 
+06. The viewport meta tag 
+07. Do you really need a media query? 
+08. Test your skills 
+09. Summary 
+
+
+===============================================================================
+CSS Layout : Legacy Layout Methods 
+===============================================================================
+01. Legacy layout methods 
+02. Layout and grid systems before CSS grid layout 
+03. A two column layout 
+04. Creating simple legacy grid frameworks
+05. Flexbox grids? 
+06. Third party grid systems 
+07. Summary 
+
+
+===============================================================================
+CSS Layout : Supporting Older Browsers 
+===============================================================================
+01. Supporting older browsers 
+02. What is the browser landscape for your site? 
+03. What is the support for the features you want to use? 
+04. Feature support does not mean identical appearance 
+05. Creating fallback in CSS 
+06. Feature queries 
+07. Testing older browsers 
+08. Summary 
+09. See also 
+
+
+===============================================================================
+CSS Layout : Fundamental Layout Comprehension 
+===============================================================================
+01. Fundamental layout comprehension 
+02. Starting point 
+03. Project brief 
+04. Hints and tips 
+05. Example 

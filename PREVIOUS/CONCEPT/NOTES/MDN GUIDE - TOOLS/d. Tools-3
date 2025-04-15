@@ -1,0 +1,33 @@
+===============================================================================
+Introduction to Client-Side Frameworks : Introduction to Client-SIde Frameworks 
+===============================================================================
+01. Introduction to client-side frameworks 
+02. A brief history 
+03. What frameworks are out there? 
+    > Ember 
+    > Angular 
+    > Vue 
+    > React 
+04. Why do frameworks exist? 
+05. The verbosity of DOM changes 
+06. Another way to build UIs 
+07. Other things frameworks give us 
+08. Things to consider when using frameworks 
+09. Accessibility on a framework-driven web 
+10. How to choose a framework 
+11. Alternatives to client-side frameworks 
+12. Summary 
+
+
+===============================================================================
+Introduction to Client-Side Frameworks : Framework Main Features  
+===============================================================================
+01. Framework main features 
+02. Domain-specific languages
+03. Writing components 
+04. Styling components 
+05. Handling dependencies 
+06. Rendering elements 
+07. Routing 
+08. Testing 
+09. Summary 

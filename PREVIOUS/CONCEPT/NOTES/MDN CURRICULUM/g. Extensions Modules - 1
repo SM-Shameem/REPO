@@ -1,0 +1,250 @@
+===============================================================================
+Extensions Modules 
+===============================================================================
+01. These extension modules constitute useful additional skills to learn as web 
+    developers start to expand their knowledge and develop specialisms 
+
+02.	Module list – 
+    a)	Transform & animate CSS
+    b)  Custom JS objects 
+    c)  Web APIs 
+    d)  Performance 
+    e)  Security and privacy 
+    f)  Testing 
+    g)  JavaScript frameworks 
+    h)  CSS tooling 
+    i)  Other tooling types 
+
+
+---------------------------
+Transform & Animation CSS 
+---------------------------
+01.	Animations are a vital part of a good user experience.
+--	Subtle usage can make page designs more interesting and appealing, and also 
+    enhance usability and perceived performance 
+
+02.	Learning outcomes – 
+    a)	Understand why CSS transforms and animation are needed 
+    b)  A caveat – overuse can negatively affect usability and accessibility 
+    c)  Common transforms – scaling, rotation, and translation 
+    d)  3D transforms, and how 3D positioning/perspective is handled on the web 
+    e)  Transitions 
+    f)  Animations 
+
+03. Resources – 
+    >   Using CSS transforms 
+    >   Using CSS transitions 
+    >   Using CSS animations 
+
+
+---------------------------
+Custom JS objects 
+---------------------------
+01. Having a deeper knowledge of how JavaScript objects work is useful as you 
+    build confidence with web development, start to build more complex apps, 
+    and create your own libraries 
+
+02.	Learning outcomes – 
+    a)  Object prototypes
+    b)  JavaScript class syntax 
+    c)  Defining a constructor 
+    d)  Defining properties and methods 
+    e)  Defining static properties and methods 
+
+03. Resources – 
+    >   JavaScript object basics 
+    >   Object prototypes 
+    >   Object-oriented programming 
+    >   Classes in JavaScript 
+
+
+---------------------------
+Web APIs
+---------------------------
+01.	This module covers common aspects of three of the most common classes of Web 
+    APIs that we haven’t previously covered in any kind of detail, providing a 
+    useful grounding for those who want to go deeper into browser API usage 
+
+02.	General notes – 
+    a)	This module does not attempt to exhaustively cover the full spectrum of 
+        APIs available in web browsers 
+    b)  Rather, it provides you with enough information to understand web APIs 
+        in general, and be able to pick up new ones via your own research 
+
+03.	General resources – Client-side web APIs
+
+04.	Topics are below –
+    a)	Video and audio APIs
+    b)  Graphics/animation APIs
+    c)  Client-Side storage 
+
+
+---------------------------
+Performance 
+---------------------------
+01.	Performance centers around making your websites as fast as possible, 
+    both in real terms (for example small file sizes, quicker loading), 
+    and in terms of how performance is perceived (for example indicating 
+    progress and getting initial content to a usable state as fast as 
+    possible, even if all the content is not yet loaded)
+
+02. Topics are below –
+    a)  Performance basics 
+    b)  Improving page rendering 
+    c)  Measuring performance 
+    d)  CSS and performance 
+    e)  JavaScript and performance 
+
+
+---------------------------
+Security and Privacy 
+---------------------------
+01. It is vital to have an understanding of how you can and should protect 
+    your data and user’s data from would-be attackers who may try to steal it.
+--	This module covers both hardening websites to make it more difficult to 
+    steal data, and collecting user data in a respectful way that avoids 
+    tracking them or sharing it with unsuitable third parties 
+
+02.	General resources – 
+    >   Privacy on the web 
+    >   Learn privacy (web.dev 2023) 
+
+03.	Topics are below – ---
+    a)	Security and privacy basics 
+    b)  Data protection laws 
+
+
+---------------------------
+Testing 
+---------------------------
+01.	Any codebase past a certain level of complexity needs to have a system 
+    of tests associated with it, to make sure that as new code is added, 
+    the codebase continues to function correctly and performant, and continues 
+    to meet the users’ needs. 
+--	This module lists the fundamentals that you should start with 
+
+02.	Topics are below – ---
+    a)	General testing fundamentals 
+    b)  Functional and compact testing 
+    c)  Usability testing 
+
+
+---------------------------
+JavaScript Frameworks 
+---------------------------
+01.	JavaScript frameworks are commonly used by companies to build web apps. 
+--	It is therefore beneficial to learn about popular frameworks and use 
+    cases (as listed below) for better employment prospects 
+
+02.	Notes – 
+    a)  Conforming to this set of criteria does not involve becoming a master 
+        of a particular framework and learning everything it has to offer. 
+        To do so can be limiting – one framework might be the most popular 
+        choice now, but in five years everything could change 
+    b)  Instead, we want to encourage students to gain a solid understanding 
+        of the JavaScript fundamentals frameworks are built on top of 
+        (see JavaScript fundamentals), and learn the common features and 
+        patterns that frameworks use. 
+    --  This approach is much more flexible and future proof 
+    c)  Students are strongly encouraged to start building apps with 2 or 3 
+        popular frameworks so they understand how they do things in general 
+        but also the difference between them 
+    d)	Advanced and/or framework-specific features can be learned as part of 
+        the student’s constant learning 
+
+03.	Learning outcomes – 
+    a)  Understand how to start using frameworks 
+    #   Link to the relevant JS files, either locally or on CDN 
+        (not usually recommended) 
+    #   Use a dependency manager such as npm to add it to your project 
+    #   Install a CLI such as Vite and use it to generate a skeleton 
+        framework-based application that you can modify. 
+    --  This is the easiest way to get started 
+    b)  The fundamentals of a typical framework. The overall architecture will 
+        differ, but most frameworks include the following in one form or another, 
+        which you should learn about
+    #   Component systems - 
+        Props | Data binding | Event handlers | Dependency injection | 
+        Component lifecycle system 
+    #   Templating language – 
+    --  Usually a domain-specific language (DSL) such as JSX or handlebars 
+    --  Includes features such as filtering and conditional rendering 
+    #   Rendering system (for example, virtual or incremental DOM) 
+    #   State management 
+    #   Routing 
+    #   Styling system to apply CSS to your components 
+    #   Dependency management 
+    #   Extension system 
+    c)  Understand the practicalities of working with a framework. 
+        Most framework-related CLIs or development environments include – 
+    #   A local testing server that refreshes on file save 
+    #   A useful set of extensions for popular code editors (for example VSCode) 
+        that provide feature like linting and code completion for 
+        framework-specific code 
+    #   An integrated system for writing test (see also Extension 6 Testing) 
+    #   Facilitation for deployment to a remote server (most deployment tools 
+        such as Netify and Vercel have integrations/tooling for working with 
+        both GitHub and popular frameworks) 
+
+04.	Resources 
+    >   Framework main features 
+    >   Getting started with React 
+    >   Learn React (Scrimba) 
+    >   Getting started with Vue 
+    >   Getting started with Ember 
+    >   Getting stated with Svelte 
+    >   Getting stated with Angular 
+
+
+---------------------------
+CSS tooling 
+---------------------------
+01.	Tooling is not just confined to JavaScript frameworks. 
+--	There are also common CSS tooling types that you’ll encounter on your 
+    learning journey 
+
+02.	Topics are below – ---
+    a)  CSS frameworks 
+    b)  CSS preprocessor 
+
+
+---------------------------
+Other Tooling Types 
+---------------------------
+01.	Notes – 
+--  This set of criteria doesn’t require having an in-depth knowledge of 
+    the tools listed below; instead, students are encouraged to learn the 
+    basic concepts of why and how they are used (and where in a web app project), 
+    test them out, and play with usage examples 
+
+02.	Learning outcomes – 
+--  Understand the purpose and basic usage of other common tooling types you 
+    may be required to use in a web project – 
+    a)  Linters/formatters, for example, (ESLint and Prettier) 
+    #   Detecting potential bugs, and how linters can automatically fix them 
+    #   The need to have coding standards, and how these tools can easily 
+        automate conformance to those standards 
+    #   Integrating them as part of your workflow – as a code editor extension, 
+        as part of your test runner, or as part of a Cl run 
+    b)  Package managers, for example, (npm and yarn) 
+    #   Using these as a way to manage project dependencies as a codebase 
+        becomes more complex  
+    #   Finding suitable packages to solve your problems from registries and 
+        installing them 
+    #   Using scripts (npm scripts) to make deployment and testing easier 
+    c)  Build tools/bundlers, for example (rollup.js, Parcel, and Vite.js)
+    #   Using these to manage dependencies, and organize, optimize, and minify 
+        your code into build files for improved performance 
+    d)  Deployment tools, for example, simple FTP clients, Netlify, and Vercel 
+    #   Using these to deploy your applications 
+    #   Integrating tooling with GitHub for automatic test deployments on push 
+    #   Handling custom domains, sever-less functions, and form submissions 
+    #   Handling access control and integration with identity providers such as 
+        Okta dn Auth0
+    #   Integrations with popular framework and app platforms 
+
+03. Resources – 
+    >   Understanding client-side web development tools 
+
+
+

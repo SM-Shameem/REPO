@@ -1,0 +1,85 @@
+===============================================================================
+MathML - Writing Mathematics with MathML
+===============================================================================
+01. Writing mathematics with MathML 
+02. Prerequisites 
+    > HTML and CSS 
+    > Getting stated with the web 
+03. Modules > MathML first steps 
+04. See also > MathML on MDN 
+
+
+===============================================================================
+MathML - Writing Mathematics with MathML : MathML First Steps 
+===============================================================================
+01. MathML first steps 
+02. Prerequisites 
+    > Dealing with files 
+    > HTML 
+03. Guides > All topics are below 
+04. Assessments > Three famous mathematical formulas 
+
+
+===============================================================================
+MathML - Writing Mathematics with MathML : Getting Started with MathML 
+===============================================================================
+01. Getting stated with MathML 
+02. Inserting formulas in HTML via the <math> element 
+03. Grouping with the <mrow> element 
+04. Summary 
+05. See also 
+
+
+===============================================================================
+MathML - Writing Mathematics with MathML : MathML Text Containers 
+===============================================================================
+01. MathML text containers 
+02. Unicode characters for mathematics 
+03. A bit of semantics 
+04. Automatic italicization of <mi>
+05. Reverting automatic italicization of <mi>
+06. Operator properties of <mo>
+07. Summary 
+08. See also 
+
+
+===============================================================================
+MathML - Writing Mathematics with MathML : MathML Fractions and Roots 
+===============================================================================
+01. MathML fractions and roots 
+02. Subtrees of <mfrac>, <msqrt> and <mroot>
+03. Stretchy radical symbols 
+04. Fractions without bar 
+05. Summary 
+06. See also 
+
+
+===============================================================================
+MathML - Writing Mathematics with MathML : MathML Scripted Element 
+===============================================================================
+01. MathML scripted element 
+02. Subscripts and superscripts 
+03. Under-scripts and over-scripts 
+04. More operator properties 
+05. Summary 
+06. See also 
+
+
+===============================================================================
+MathML - Writing Mathematics with MathML : MathML Tables 
+===============================================================================
+01. MathML tables 
+02. MathML tabular elements 
+03. Allowing cells to span multiple rows and columns 
+04. Usage for advanced layout 
+05. Summary 
+06. See also 
+
+
+===============================================================================
+MathML - Writing Mathematics with MathML : Three Famous Mathematical Formulas 
+===============================================================================
+01. Three famous mathematical formulas 
+02. A small math article 
+03. Starting point 
+04. Hints and tips 

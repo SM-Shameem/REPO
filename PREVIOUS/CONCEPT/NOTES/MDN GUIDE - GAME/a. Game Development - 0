@@ -1,0 +1,77 @@
+===============================================================================
+Game Development 
+===============================================================================
+01. Game Development 
+02. Develop web games 
+03. Port native games to the web 
+04. Example > Tutorial 
+05. See also 
+    > Build New Games 
+    > Creative JS
+    > Game Programming Patterns 
+    > Gamedev.js Weekly 
+    > HTML5 Game Engine 
+    > Tuts+ Game Development 
+    > HTML5 Gamedev Starter 
+    > js13kGames 
+    > Mozilla Hacks Blog 
+    > Games section on wiki.mozilla.org 
+
+
+-----------------------------------
+Guides and Tutorials 
+-----------------------------------
+01. Introduction to game development for the Web 
+02. Techniques for game development 
+03. Tutorials 
+04. Publishing games 
+
+
+===============================================================================
+Introduction : Introduction (Introduction to Game Development for the Web)
+===============================================================================
+01. Introduction to game development for the web 
+02. The HTML game platform 
+03. The business case 
+04. Web technologies for game developers 
+    > Fetch API             > Full Screen API 
+    > Gamepad API           > HTML and CSS 
+    > HTML Audio            > IndexedDB
+    > JavaScript            > Pointer Lock API 
+    > SVG                   > Typed Arrays 
+    > Web Audio API         > WebGL 
+    > WebRTC                > WebSockets 
+    > Web Workers 
+
+
+===============================================================================
+Introduction : Anatomy 
+===============================================================================
+01. Anatomy of a video game 
+02. Present, accept, interpret, calculate, repeat 
+03. Building a main loop in JavaScript 
+04. Building a better main loop in JavaScript 
+05. Building a more optimized main loop in JavaScript 
+06. It is decision... time 
+07. Summary 
+
+
+===============================================================================
+APIs for Game Development 
+===============================================================================
+01. Canvas API
+02. CSS Reference   
+03. Full Screen API 
+04. Gamepad API 
+05. IndexedDB API 
+06. JavaScript Reference 
+07. Pointer Lock API 
+08. SVG Reference 
+09. Typed Array Reference (JavaScript)
+10. Web Audio API 
+11. WebGL API 
+12. WebRTC API 
+13. WebSockets API 
+14. WebVR API 
+15. Web Workers API 
+16. XMLHttpRequest API 

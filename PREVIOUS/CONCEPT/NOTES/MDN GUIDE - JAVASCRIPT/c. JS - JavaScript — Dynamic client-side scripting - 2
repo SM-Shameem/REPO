@@ -1,0 +1,116 @@
+===============================================================================
+JavaScript Building Blocks : JavaScript Building Blocks   
+===============================================================================
+01. JavaScript Building Blocks 
+02. Prerequisites
+    > HTML and CSS 
+    > JavaScript first steps 
+03. Guides > All the topics below 
+04. Assessments > Image gallery 
+05. See also > Learn JavaScript 
+
+
+===============================================================================
+JavaScript Building Blocks : Making Decisions in Your Code - Conditionals 
+===============================================================================
+01. Making decision in your code - conditionals 
+02. You can have it on one condition 
+03. if..else statements 
+04. switch statements 
+05. Ternary operator 
+06. Active learning: A simple calendar 
+07. Active learning: More color choices 
+08. Test your skills 
+09. Conclusion 
+10. See also 
+
+
+===============================================================================
+JavaScript Building Blocks : Looping Code 
+===============================================================================
+01. Looping code 
+02. Why are loops useful? 
+03. Looping through a collection 
+04. The standard for loop 
+05. Exiting loops with break 
+06. Skipping iterations with continue 
+07. while and od..while 
+08. Active learning: launch countdown 
+09. Active learning: filling in a guest list 
+10. Which loop type should you use? 
+11. Test your skills 
+12. Conclusion 
+
+
+===============================================================================
+JavaScript Building Blocks : Functions - Reusable Blocks of Code 
+===============================================================================
+01. Functions - Reusable Blocks of Code 
+02. Where do I find functions? 
+03. Built-in browser functions 
+04. Functions versus methods 
+05. Invoking functions 
+06. FUnction parameters 
+07. Anonymous functions and arrow functions 
+08. Function scope and conflicts 
+09. Test your skills 
+10. Conclusion 
+
+
+===============================================================================
+JavaScript Building Blocks : Build Your Own Function 
+===============================================================================
+01. Build your own function 
+02. Active learning: let's build a function 
+03. The basic function 
+04. Calling the function 
+05. Improving the function with parameters 
+06. Test your skills 
+07. Conclusion 
+
+
+===============================================================================
+JavaScript Building Blocks : Function Return Values 
+===============================================================================
+01. Function return values 
+02. What are return values? 
+03. Active learning: our own return value function 
+04. Now it's your turn 
+05. Test your skills 
+06. Conclusion 
+
+
+===============================================================================
+JavaScript Building Blocks : Introduction to Events 
+===============================================================================
+01. Introduction to events 
+02. What is an event? 
+03. Using addEventListener() 
+04. Other event listener mechanisms 
+05. Event objects 
+06. Preventing default behavior 
+07. It's not just web pages 
+08. Conclusion 
+
+
+===============================================================================
+JavaScript Building Blocks : Event Bubbling 
+===============================================================================
+01. Event Bubbling 
+02. Introducing event bubbling 
+03. Event capture 
+04. Event delegation 
+05. target and currentTarget 
+06. Test your skills 
+07. Conclusion 
+
+
+===============================================================================
+JavaScript Building Blocks : Image Gallery 
+===============================================================================
+01. Image Gallery 
+02. Starting point 
+03. Project brief 
+04. Steps to complete 
+05. Declare an array of image filenames 
+06. Hints and tips 

@@ -1,0 +1,55 @@
+===============================================================================
+Advanced Web Form Techniques : How to Build Custom Form Controls 
+===============================================================================
+01. How to build custom form controls 
+02. Design, structure, and semantics 
+03. Defining the HTML structure and (some) semantics 
+04. Creating the look and feel using CSS 
+05. Bringing your control to life with JavaScript 
+06. Making it accessible 
+07. An alternative approach: Using radio buttons 
+08. Conclusion 
+09. See also 
+
+
+===============================================================================
+Advanced Web Form Techniques : Sending Forms Through JavaScript 
+===============================================================================
+01. Sending Forms through JavaScript 
+02. Why use JavaScript to submit form data? 
+03. The problem with JavaScript form submission 
+04. Building a FormData object manually 
+05. Associating a FormData object and a <form>
+06. See also 
+
+
+===============================================================================
+Advanced Web Form Techniques : CSS Property Compatibility Table for Form Controls 
+===============================================================================
+01. CSS property compatibility table for form controls 
+02. How to read the tables 
+03. Compatibility tables 
+    > text field 
+    > buttons 
+    > numbers 
+    > check boxes and radio buttons 
+    > select boxes (single line)
+    > select boxes (multiline) 
+    > data-list 
+    > file picker 
+    > date pickers 
+    > color pickers 
+    > meters and progress 
+    > range 
+    > image buttons 
+04. See also 
+
+
+===============================================================================
+Advanced Web Form Techniques : HTML Forms in Legacy Browsers 
+===============================================================================
+01. HTML forms in legacy browsers 
+02. Learn about the issues 
+03. Feature detection and polyfills 
+04. Conclusion 
+05. See also 

@@ -1,0 +1,68 @@
+===============================================================================
+CSS First Steps : CSS First Steps 
+===============================================================================
+01. CSS first steps 
+02. Prerequisites 
+03. Guides 
+04. Assessments 
+05. See also 
+
+===============================================================================
+CSS First Steps : What is CSS 
+===============================================================================
+01. What is CSS
+02. What is CSS for 
+03. CSS syntax 
+04. CSS modules 
+05. CSS specifications 
+06. Browser support information 
+07. Summary 
+
+
+===============================================================================
+CSS First Steps : Getting Started with CSS 
+===============================================================================
+01. Getting stated with CSS
+02. Starting with some HTML 
+03. Adding CSS to our document 
+04. Styling HTML elements 
+05. Changing the default behavior of elements 
+06. Adding a class 
+07. Styling things based on their location in a document 
+08. Styling things based on state 
+09. Combining selectors and combinators 
+
+
+===============================================================================
+CSS First Steps : How CSS is Structured 
+===============================================================================
+01. How CSS is Structured 
+02. Applying CSS to HTML 
+03. Playing with the CSS in this article 
+04. Selectors 
+05. Properties and values 
+06. Shorthands 
+07. Comments 
+08. White space 
+09. Summary 
+
+
+===============================================================================
+CSS First Steps : How CSS Works 
+===============================================================================
+01. How CSS works 
+02. How does CSS actually work 
+03. About the DOM 
+04. A real DOM representation 
+05. Applying CSS to the DOM 
+06. What happens if a browser encounters CSS it doesn't understand 
+07. Summary 
+
+
+===============================================================================
+CSS First Steps : Styling A Biography Page 
+===============================================================================
+01. Styling a biography page 
+02. Starting point 
+03. Project brief 
+04. Hints and tips 

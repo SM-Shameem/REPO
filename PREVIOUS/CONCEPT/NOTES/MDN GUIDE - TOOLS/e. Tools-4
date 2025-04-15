@@ -1,0 +1,80 @@
+===============================================================================
+React : Getting Started with React  
+===============================================================================
+01. Getting stated with react 
+02. Hello react 
+03. Use cases 
+04. How does React use JavaScript? 
+05. Setting up your first React app 
+06. Exploring our first React component - <App /> 
+07. Moving on to main 
+08. Starting fresh 
+09. Practice with JSX 
+10. Summary 
+11. See also 
+
+
+===============================================================================
+React : Beginning Our React todo List 
+===============================================================================
+01. Beginning our react todo list 
+02. Our app's user stories 
+03. Pre-project house-keep 
+04. Project starter code 
+05. Summary 
+
+
+===============================================================================
+React : Componentizing Our React App 
+===============================================================================
+01. Componentizing our react app 
+02. Defining our first component 
+03. Make a <Todo /> 
+04. Make a unique <Todo />
+05. So far, so good? 
+06. Tasks as data 
+07. Rendering with iteration 
+08. Componentizing the rest of the app 
+09. Importing all our components 
+10. Summary 
+
+
+===============================================================================
+React : React Interactivity-Events and State  
+===============================================================================
+01. React interactivity: events and state 
+02. Handling events 
+03. Callback props 
+04. Persisting and changing data with state 
+05. Putting it all together: Adding a task 
+06. Detour: counting tasks 
+07. Completing a task 
+08. Deleting a task 
+09. Deleting tasks form state and UI 
+10. Summary 
+
+
+===============================================================================
+React : React Interactivity: Editing, Filtering, Conditional Rendering 
+===============================================================================
+01. React interactivity: editing, filtering, conditional rendering 
+02. Editing the name of a task 
+03. a UI for editing 
+04. Conditional rendering 
+05. Toggling the <Todo /> templates 
+06. Editing from the UI 
+07. Back to the filter buttons 
+08. Summary 
+
+
+===============================================================================
+React : Accessibility in React 
+===============================================================================
+01. React resources 
+02. Component-level styles 
+03. React DevTools 
+04. The useReducer() hook 
+05. The context API 
+06. Class components 
+07. Testing 
+08. Routing  

@@ -1,0 +1,86 @@
+===============================================================================
+Tools and Testing 
+===============================================================================
+01. Tools and testing 
+02. Prerequisites 
+03. Modules 
+    > Understanding client-side web development tools 
+    > Understanding client-side JavaScript frameworks 
+    > Cross browser testing 
+
+
+===============================================================================
+Client-side Web Development Tools > Client-Side Web Development Tools 
+===============================================================================
+01. Understanding client-side web development tools 
+02. Prerequisites 
+03. guides 
+    > client-side overview 
+    > command line crash course 
+    > package management basics 
+    > introducing a complete toolchain 
+    > deploying our app 
+
+
+===============================================================================
+Client-side Web Development Tools > Client-side tooling overview 
+===============================================================================
+01. Client-side tooling overview 
+02. Overview of modern tooling 
+03. The modern tooling ecosystem 
+04. How to choose and get help with a particular tool 
+05. Summary 
+
+
+===============================================================================
+Client-side Web Development Tools > Command Line Crash Course 
+===============================================================================
+01. Command line crash course 
+02. Welcome to the terminal 
+03. Basic built-in terminal commands 
+04. Terminal - considered harmful?
+05. Connecting commands togethers with pipes 
+06. A slightly more complex example 
+07. Adding powerups 
+08. Other tools to play with 
+09. Summary 
+
+
+===============================================================================
+Client-side Web Development Tools > Package Management Basics 
+===============================================================================
+01. Package management basics 
+02. A dependency in your project 
+03. What exactly is a package manager? 
+04. Package registries 
+05. Using the package ecosystem 
+06. A rough guide to package manager clients 
+07. Making your own commands 
+08. Summary 
+
+
+===============================================================================
+Client-side Web Development Tools > Introducing a Complete Toolchain
+===============================================================================
+01. Introducing a complete toolchain 
+02. INtroducing our case study 
+03. Tools used in our toolchain 
+04. Toolchains and their inherent complexity 
+05. Checking prerequisites 
+06. Creating a development environment 
+07. Build and transformation tools 
+08. Writing the source code 
+09. Running the transformation 
+10. Summary 
+
+
+===============================================================================
+Client-side Web Development Tools > Deploying Our App
+===============================================================================
+01. Deploying our app 
+02. Post development 
+03. The build process 
+04. Committing changes to GitHub 
+05. Using GitHub Actions for deployment 
+06. Testing 
+07. Summary 

@@ -1,0 +1,51 @@
+===============================================================================
+Implementing Game Control Mechanisms : Control Mechanisms 
+===============================================================================
+01. Implementing game control mechanisms 
+02. Case study 
+03. Setting up the environment 
+04. Pure JavaScript demo 
+05. The articles 
+
+
+===============================================================================
+Implementing Game Control Mechanisms : Mobile Touch 
+===============================================================================
+01. Mobile touch controls 
+02. Pure JavaScript approach 
+03. Touch events in phaser 
+04. Summary 
+
+
+===============================================================================
+Implementing Game Control Mechanisms : Desktop with Mouse and Keyboard 
+===============================================================================
+01. Desktop mouse and keyboard controls 
+02. Pure JavaScript approach 
+03. Phaser approach 
+04. Summary 
+
+
+===============================================================================
+Implementing Game Control Mechanisms : Desktop with Gamepad 
+===============================================================================
+01. Desktop gamepad controls 
+02. API status, browser and hardware support 
+03. Pure JavaScript approach 
+04. Phaser approach 
+05. Implementation 
+06. On-screen instructions
+07. Gameplay controls 
+08. The paused and gameover states 
+09. Summary 
+
+
+===============================================================================
+Implementing Game Control Mechanisms : Other 
+===============================================================================
+01. Unconventional controls 
+02. TV remote 
+03. Leap motion 
+04. Doppler effect 
+05. MaKey MaKey 
+06. Summary 

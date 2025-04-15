@@ -1,0 +1,89 @@
+===============================================================================
+Client-Side Web APIs : Client-Side Web APIs 
+===============================================================================
+01. Introducing JavaScript objects 
+02. Prerequisites 
+    > HTML and CSS 
+    > JavaScript first steps 
+    > JavaScript building blocks 
+    > JavaScript Objects 
+03. Guide > All the topics below 
+
+
+===============================================================================
+Client-Side Web APIs : Introduction to Web APIs 
+===============================================================================
+01. Introduction to web APIs 
+02. What are APIs? 
+03. What can APIs do? 
+04. How do APIs works? 
+05. Summary 
+
+
+===============================================================================
+Client-Side Web APIs : Manipulating Documents 
+===============================================================================
+01. Manipulating documents 
+02. The important parts of a web browser
+03. The document object model 
+04. Active learning: basic DOM manipulation 
+05. Active learning: a dynamic shopping list 
+06. Summary 
+07. See also 
+
+
+===============================================================================
+Client-Side Web APIs : Fetching Data From the Server  
+===============================================================================
+01. Fetching data from the server 
+02. What is the problem here? 
+03. The fetch API 
+04. The XMLHttpRequest API 
+05. Summary 
+06. See also 
+
+
+===============================================================================
+Client-Side Web APIs : Third-party APIs 
+===============================================================================
+01. Third-party APIs 
+02. What are third party APIs? 
+03. Extending the Mapquest example 
+04. A RESTfull API - NYTimes 
+05. YouTube example 
+06. Summary 
+
+
+===============================================================================
+Client-Side Web APIs : Drawing Graphics     
+===============================================================================
+01. Drawing graphics 
+02. Graphics on the web 
+03. Active learning: getting started with a <canvas> 
+04. 2D canvas basics 
+05. Loops and animations 
+06. WebGL 
+07. Summary 
+08. See also 
+
+
+===============================================================================
+Client-Side Web APIs : Video and Audio APIs   
+===============================================================================
+01. Video and Audio APIs 
+02. HTML video and audio 
+03. The HTMLMediaElement API 
+04. Summary 
+05. See also 
+
+
+===============================================================================
+Client-Side Web APIs : Client-Side Storage   
+===============================================================================
+01. Client-side storage 
+02. Client-side storage? 
+03. Storing simple data - web storage 
+04. Storing complex data - IndexedDB 
+05. Offline asset storage 
+06. Summary 
+07. See also 

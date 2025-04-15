@@ -1,0 +1,165 @@
+===============================================================================
+Extension Module : Web APIs
+===============================================================================
+01. Video and audio APIs 
+02. Graphics/animation APIs
+03. Client-side storage 
+
+
+-------------------------------------------------------------------------------
+Video and Audio APIs 
+-------------------------------------------------------------------------------
+01. Learning outcomes - 
+    a)  General concepts - 
+    #   Understand the different types of video and audio formats 
+    #   Understand codecs 
+    #   Understand key functionality associated with audio and video - play, 
+        pause, stop, seeking backward and forward, duration, and current time 
+    #   Notes - 
+    --  This set of conformance criteria does not expect a successful student to 
+        understand all of the web platform's video and audio-related APIs in detail
+    --  There is a lot of functionality in this category, and learning it all 
+        upfront would not be practical or particularly useful 
+    --  Some of the functionality is for niche use cases, and students are 
+        encouraged to learn more as part of their constant learning, or when the 
+        need arises 
+    #   Notes - 
+    --  For now, you are expected to understand the concepts behind video and audio 
+        on the web, the basic core API functionality, and the purpose of some of 
+        the more advanced APIs 
+    b)  Using the (HTMLMediaElement) API to build a basic custom media player - 
+    #   Understand why you'd do this - your target audience might have specific 
+        needs not addressed by the browser defaults 
+    #   One good example is that some browser default controls are not very 
+        keyboard accessible 
+    #   Another is that you might just want a consistent UI design across browsers 
+    c)  Using media streams/getUserMedia() to capture video/audio from local device 
+    d)  Handling common errors related to media delivery - 
+    #   Using (<source>) elements to handle multiple formats 
+    #   Using the correct MIME type 
+    #   Showing fallback content if the media is not supported 
+    e)  Understand the purpose of other video and audio APIs, including the web 
+        Audio API, Media Stream Recoding API, and Media SOurce Extensions API
+
+02. Resources - 
+    >   Video and audio APIs 
+    >   Audio and video delivery 
+    >   Audio and video manipulation 
+    >   Media type and formate guide: image, audio, and video content 
+
+
+-------------------------------------------------------------------------------
+Graphics/Animation APIs
+-------------------------------------------------------------------------------
+01. Learning outcomes - 
+    a)  Using timers and (requestAnimationFrame()) to set up animation loops- 
+    #   Basic syntax and usage 
+    #   Understand why (requestAnimationFrame()) is an improvement over what 
+        came before it 
+    #   Common use cases for animation loops, for example, decorative animations 
+        and games 
+    b)  Web Animation API
+    #   Basic syntax and usage 
+    #   Understand how the Web Animations API relates to CSS animation properties, 
+        and when should you use each one 
+    #   Common use cases 
+    c)  Canvas - 
+    #   Understand conceptually what (<canvas>) element and associated APIs enable
+    #   Basic syntax and usage oof the 2D Canvas API 
+    #   Looping (<canvas>) updates to create a simple animation or game 
+
+02. Resources - 
+    >   Drawing graphics 
+    >   Web Animations API 
+    >   Canvas tutorial 
+
+
+-------------------------------------------------------------------------------
+Client-side storage 
+-------------------------------------------------------------------------------
+01. Notes - 
+--  The main items of importance to understand in this set of conformance criteria 
+    are the general concepts, using Web Storage for simple client-side storage
+    tasks, and how cookies are used in positive and negative ways 
+
+02. Learning outcomes - 
+    a)  Understand the concepts of client-side storage 
+    #   Know the common client-side data storage mechanisms - Web Storage API,
+        cookies, Cache API, and the IndexedDB API 
+    #   Key use cases - maintaining state across reloads, persisting login and 
+        user personalization data, and local/offline working 
+    #   Understand the negative patterns associated with client-side storage - 
+        for example using cookies for tracking/fingerprinting 
+    b)  Using cookies to store arbitrary data, normally controlled by HTTP headers 
+    c)  Using Web Storage for simple key-value pair storage, controlled by JS 
+    d)  Using IndexedDB 
+    #   Complete client-side transactional database system 
+    #   Complex, and rarely used directly . 
+    --  You'd be more likely to use a library such as (dexie.js)
+    e)  Using Cache/Service Workers - 
+    #   Understand the basic ideas behind their usage in progressive Web Apps 
+        (PWAs), and the fundamental use case of making a site work offline 
+    #   Notes - 
+    --  IndexedDB and Cache API (commonly used with Service WOrkers) are complex,
+        and constitute huge topics.
+    --  Exhaustively understanding them at this stage is not necessary, although we
+        would suggest that gain an understanding of the basics behind how they work
+
+02. Resources - 
+    >   Client-side storage 
+    >   Using HTTP cookies 
+    >   What is a progressive web app 
+
+
+
+
+===============================================================================
+Extensions Modules : CSS Tooling 
+===============================================================================
+01. CSS Framework 
+02. CSS Preprocessor
+
+
+-------------------------------------------------------------------------------
+CSS Framework 
+-------------------------------------------------------------------------------
+01. Notes - 
+--  The aim here is not to have an exhaustive understanding of any one framework, 
+    but rather to understand the pros and cons, what a CSS framework can do, and 
+    what general usage looks like 
+
+02. Learning outcomes - 
+    a)  Understand the value that CSS frameworks bring - consistency, organization,
+        ready-made components and style guidelines, and built-in best practices 
+    b)  Understand the problems with CSS frameworks - they are often overkill 
+        (in terms of complexity and file size), new syntax to learn, your sites will
+        start to look like everyone else's and they can be hard to override if you 
+        want to customize them 
+    c)  Understand the basics of using popular CSS frameworks such as 
+        (Bootstrap, Foundation, and Tailwind)
+    d)  Understand hwo they integrate into a web project 
+    e)  Understand hwo to weigh up the burden of adopting a CSS framework 
+        (e.g. handling integration and initial learning curve) versus the 
+        advantages (how much they can speed up development once you are familiar)
+
+
+-------------------------------------------------------------------------------
+CSS Preprocessor
+-------------------------------------------------------------------------------
+01. Notes - 
+--  The aim here is not to have an exhaustive understanding of any one preprocessor,
+    but rather to understand the pros and cons, what a CSS preprocessor can do, and 
+    what general usage looks like 
+
+02. Learning outcomes - 
+    a)  Understanding the value of CSS preprocessor - bringing features to CSS 
+        that are not available natively (such as loops or if/else structures), 
+        and speeding up the writing of your code 
+    b)  Understand the problems with CSS preprocessor - for example, they often 
+        require learning new syntax 
+    c)  Understand the basics of using popular CSS preprocessor such as 
+        (Sass and PostCSS)
+    d)  Understand hwo they integrate into a web project 
+    e)  Understand how to weigh up the burden fo adopting a CSS preprocessor 
+        (e.g. handling integration and initial learning curve) versus the 
+        advantages (how much they can speed up writing CSS once familiar with them)

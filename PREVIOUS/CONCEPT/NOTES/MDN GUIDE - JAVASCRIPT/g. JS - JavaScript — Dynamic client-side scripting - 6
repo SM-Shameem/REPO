@@ -1,0 +1,158 @@
+===============================================================================
+Web Forms - Working with User Data : Web Form Building Blocks 
+===============================================================================
+01. Web form building blocks 
+02. Prerequisites 
+    > HTML
+    > Introductory guides 
+    > Basic native form controls 
+    > CSS and JavaScript 
+03. Introductory guides 
+    > Your first form 
+    > How to structure a web form 
+04. The different form controls 
+    > Basic native form controls 
+    > The HTML5 input types 
+    > Other form controls 
+05. Form styling guides 
+    > Styling web forms 
+    > Advanced form styling 
+    > UI pseudo-classes 
+06. Validating and submitting form data 
+    > Client-side form validation 
+    > Sending form data 
+07. Advanced articles 
+    > How to build custom form controls 
+    > Sending forms through JavaScript 
+    > CSS property compatibility table for form controsl 
+08. See also 
+    > HTML forms element reference 
+    > HTML <input> types reference 
+    > HTML attribute reference 
+    > User input methods and controls 
+
+
+===============================================================================
+Web Form Building Blocks : Your First Form 
+===============================================================================
+01. Your first form 
+02. What are web forms? 
+03. Designing your form 
+04. Active learning: implementing our form HTML 
+05. Basic form styling 
+06. Sending form data to your web server 
+07. Summary 
+
+
+===============================================================================
+Web Form Building Blocks : How to Structure a Web Form 
+===============================================================================
+01. How to structure a web form 
+02. The <form> element 
+03. The <fieldset> and <legend> elements 
+04. The <label> elements 
+05. Common HTML structures used with forms 
+06. Test your skills
+07. Summary 
+08. See also 
+
+
+===============================================================================
+Web Form Building Blocks : Basic Native Form Controls 
+===============================================================================
+01. Basic native form controls 
+02. Text input fields 
+03. Checkable items: checkboxes and radio buttons 
+04. Actual buttons 
+05. File picker 
+06. Common attributes 
+07. Test your skills 
+08. Summary 
+
+
+===============================================================================
+Web Form Building Blocks : The HTML5 Input Types 
+===============================================================================
+01. The HTML5 Input types 
+02. Email address field 
+03. Search field 
+04. Phone number field 
+05. URL field 
+06. Numeric field 
+07. Slider controls 
+08. Data and time pickers 
+09. Color picker control 
+10. Test your skills 
+11. Summary 
+
+
+===============================================================================
+Web Form Building Blocks : Other Form Controls 
+===============================================================================
+01. Other form controls 
+02. Multi-line text fields 
+03. Drop-down controls
+04. Other form features 
+05. Test your skills 
+06. Summary 
+
+
+===============================================================================
+Web Form Building Blocks : Styling Web Forms 
+===============================================================================
+01. Styling web forms 
+02. Challenges in styling form widgets 
+03. Styling simple form widgets 
+04. A specific styling example 
+05. Test your skills 
+06. Summary 
+
+
+===============================================================================
+Web Form Building Blocks : Advanced Form Styling 
+===============================================================================
+01. Advanced form styling 
+02. Appearance: controlling OS-level styling 
+03. What can be done about the "ugly" elements? 
+04. Summary 
+
+
+===============================================================================
+Web Form Building Blocks : UI Pseudo-Classes
+===============================================================================
+01. UI pseudo-classes 
+02. What pseudo-classes do we have available? 
+03. Styling inputs based on whether they are required or not
+04. Using generated content with pseudo-classes 
+05. Styling controls based on whether their data is valid 
+06. Styling enabled and disabled inputs, and read-only and read-write 
+07. Radio and checkbox states - checked, default, indeterminate 
+08. More pseudo-classes 
+09. Test your skills 
+10. Summary 
+
+
+===============================================================================
+Web Form Building Blocks : Client-Side FOrm Validation 
+===============================================================================
+01. Client-side form validation 
+02. What is form validation? 
+03. Different types of client-side validation 
+04. Using built-in form validation 
+05. Built-in form validation example 
+06. Validating forms using JavaScript 
+07. Test your skills 
+08. Summary 
+
+
+===============================================================================
+Web Form Building Blocks : Sending Form Data 
+===============================================================================
+01. Sending form data 
+02. Client/Server architecture 
+03. On the client side: defining how to send the data 
+04. On the server side: retrieving the data 
+05. A special case: sending files 
+06. Security issues 
+07. Summary 
+08. Sea also 

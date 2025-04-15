@@ -1,0 +1,115 @@
+===============================================================================
+Performance - Making Websites Fast and Responsive : Web Performance 
+===============================================================================
+01. Web Performance 
+02. Learning pathway 
+03. Guides > all the topics are below 
+04. See also 
+    > Web performance resources 
+    > Responsive images 
+    > Main web performance section on MDN 
+
+==============================================================================
+Performance Guides : The 'Why' of Web Performance 
+===============================================================================
+01. The 'Why' of web performance 
+02. Why care about performance? 
+03. Conclusion 
+
+
+==============================================================================
+Performance Guides : What is Web Performance? 
+===============================================================================
+01. What is web performance? 
+02. What is web performance? 
+03. How content is rendered
+04. Conclusion 
+
+
+==============================================================================
+Performance Guides : Perceived Performance 
+===============================================================================
+01. Perceived performance 
+02. Overview 
+03. Performance metrics 
+04. Improving performance 
+05. Conclusion 
+
+
+==============================================================================
+Performance Guides : Measuring Performance 
+===============================================================================
+01. Measuring performance 
+02. Performance tools 
+03. General performance reporting tools 
+04. Network monitor tools 
+05. Performance monitor tools 
+06. Performance APIs
+07. Conclusion 
+
+
+==============================================================================
+Performance Guides : Multimedia-Images  
+===============================================================================
+01. Multimedia: images 
+02. Why optimize your multimedia? 
+03. Optimizing image delivery 
+04. Conclusion 
+
+
+==============================================================================
+Performance Guides : Multimedia-Video 
+===============================================================================
+01. Multimedia-video 
+02. Why optimize your multimedia? 
+03. Optimizing video delivery 
+04. Conclusion 
+
+
+==============================================================================
+Performance Guides : JavaScript Performance Optimization 
+===============================================================================
+01. JavaScript performance optimization 
+02. to optimize or not to optimize 
+03. Optimizing JavaScript downloads
+04. Handling parsing and execution 
+05. Loading critical assets as soon as possible 
+06. Deferring execution of non-critical JavaScript 
+07. Breaking down long tasks 
+08. Handling JavaScript animations 
+09. Optimizing event performance 
+10. Tips for writing more efficient code 
+11. See also 
+
+
+==============================================================================
+Performance Guides : HTML Performance Optimization 
+===============================================================================
+01. HTML performance optimization 
+02. To optimize or not to optimize 
+03. Key HTML performance issues 
+04. Responsive handling of replaced elements 
+05. Handling embedded content 
+06. Handling resource loading order 
+07. See also 
+
+
+==============================================================================
+Performance Guides : CSS Performance Optimization 
+===============================================================================
+01. CSS performance optimization 
+02. To optimize or not to optimize 
+03. Optimizing rendering 
+04. Handling animations 
+05. Optimizing element changes with will-change 
+06. Optimizing for render blocking 
+07. Improving font performance 
+08. Optimizing styling recalculation with CSS containment 
+09. See also 
+
+
+==============================================================================
+Performance Guides : The Business Case for Web Performance 
+===============================================================================
+01. The business case for web performance 
+02. Making performance a business priority 

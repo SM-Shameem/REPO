@@ -1,0 +1,455 @@
+===============================================================================
+Core Module : Web Standards 
+===============================================================================
+01. How the Web Works 
+02. The HTML, CSS, and JavaScript Triangle
+03. The Web Standards Model
+04. How Browsers Load Webpages
+
+
+-------------------------------------------------------------------------------
+How the Web Works
+-------------------------------------------------------------------------------
+01. Learning outcomes - 
+    a)  Clients and Servers and their roles in the web 
+    b)  DNS and hwo it works at a high level 
+    c)  TCP/IP and HTTP 
+    d)  HTTP syntax at a basic level 
+    e)  Common HTTP response codes (e.g. 200, 301, 403, 404, and 500)
+    f)  Components of a URL (protocol, domain, and subdomain)
+    g)  TLDs and how to register a domain 
+    h)  Hosting, how to purchase it, and how to put a website online 
+
+02. Notes - 
+    a)  One of the key goals of this section is a high-level understanding 
+        of how the web functions behind the code 
+    b)  You should also gain a vocabulary to start talking about how the 
+        web functions precisely 
+
+03. Resources - 
+    > How the web Works 
+    > How the web Works: A Primer for Newcomers to Web Development 
+        (or anyone, really) - freeCodeCamp (2015)
+    > What is a domain name
+    > What is a URL 
+    > Publishing your website 
+
+
+-------------------------------------------------------------------------------
+The HTML, CSS, and JavaScript Triangle
+-------------------------------------------------------------------------------
+01. Learning outcomes - 
+    a)  The purpose of HTML, CSS, and JavaScript 
+    b)  Notes - 
+    #   Purposes of the main web authoring technologies 
+    --  HTML is for structure and semantics (meaning) 
+    --  CSS is for styling and layout 
+    --  JavaScript is for controlling dynamic behavior 
+
+    c)  Their place is the larger ecosystem, and the fact that they are not 
+        the only web technologies 
+    d)  Why separating the layers is a good idea
+    e)  Notes - 
+    #   Separation is a good idea for - 
+    --  Code management and comprehension 
+    --  Teamwork/separation of roles 
+    --  Performance 
+
+    f)  The fact that in reality, the separation is not always clear 
+    g)  Notes - 
+    #   A prime example is the case of using JavaScript of dynamically 
+        update CSS styling on-the-fly in response to app state changers, 
+        user choices, etc 
+    #   Often this is done by modifying the (Element.style.x) properties, 
+        which results in inline CSS being injected into HTML
+    --  A better strategy is to add/change classes on elements to avoid 
+        inline CSS
+    #   Much more severe is the case of JavaScript frameworks that use 
+        various HTML-in-JavaScript or CSS-in-JavaScript custom syntax, 
+        which results in a lot of mixing of syntax types 
+
+    h)  The nature of this separation - an ideal to aim for where possible 
+        rather than an absolute 
+    i)  The concept of progressive enhancement 
+    j)  Notes - 
+    #   Progressive enhancement is often seen an unimportant, because browsers 
+        tend to support new features more consistently these days, and people 
+        tend to have faster internet connections
+    --  However, you should think about examples relevant to the modern day - 
+        cutting down on decoration to make a mobile experience smoother and 
+        save on data, or providing a simpler, lower-bandwidth experience for 
+        users in developing countries who might still pay for home internet by 
+        the megabyte 
+    --  This bleeds over into responsive design, 
+        which is covered later on in more depth
+
+02. Resources - 
+    >   The web and web standards 
+    >   The Web Standards Model - websitearchitecture.co.uk
+    >   What is Progressive Enhancement, and why it matters 
+
+
+-------------------------------------------------------------------------------
+The Web Standards Model
+-------------------------------------------------------------------------------
+01. Learning outcomes - 
+    a)  How standards bodies operate - 
+        for example the (W3C, WHATWG, TC39 and Khronos Group)
+    b)  The process of standards creation 
+    c)  Notes - 
+    #   The basic principles of the web - interoperable, accessible, 
+        collaborative, and not owned by a single corporation 
+    #   The basis means that the web is a unique and exciting industry 
+        to get involved in 
+    #   The full W3C standards process is deep and academic. 
+    --  For now, yu should understand hwo different individuals and companies 
+        get involved in the standards process, and how the different maturity 
+        stages are designed to weed out issues 
+        (e.g. interoperability issues, patent issues)
+
+    d)  The lifecycle of web standards features - 
+    #   Experimental: Usually only available in one browser engine as it is 
+        developed, sometimes not in a specification yet 
+    --  Too early to use in production 
+    #   Stable: Development finished, specified, available across browser engines 
+    #   Deprecated: Not to be used anymore, may still be in browsers but flagged
+        for deletion 
+    e)  The key principles web standards are built on - 
+    #   Open to contribute and use 
+    #   Not patent-encumbered or controlled by a single private entity 
+    #   accessible and interoperable 
+    #   They don't break the web 
+
+02. Resources - 
+    >   The web and Web Standards 
+    >   About W3C web standards - W3C 
+    >   The W3C recommendation track - W3C (2021)
+    >   WHATWG FAQ - WHATWG
+
+
+-------------------------------------------------------------------------------
+How Browsers Load Webpages
+-------------------------------------------------------------------------------
+01. Learning outcomes - 
+    a)  The HTTP request-response model 
+    b)  The different kinds of assets that are returned in an HTTP response 
+    c)  Notes - 
+    #   The different kinds of downloaded resources to understand are - 
+    --  HTML files 
+    --  CSS files 
+    --  JavaScript files 
+    --  Media assets such as images, videos, audio files, PDFs, and SVGs 
+    #   Other kinds of file that the browser can't handle natively and 
+        hands off to a relevant app on the device, for example Word documents 
+        and PowerPoint slide decks 
+
+    d)  Static versus dynamic files: some downloaded code files will be static 
+        (they exist on the server in the same form as they are downloaded), and
+        some will be dynamic (generated by the server based on varying data) 
+    e)  How these are assembled to create a web document that is then displayed 
+        by the browser 
+    f)  Notes - 
+    #   A web page is requested (e.g. by clicking a link)
+    #   A DNS lookup is performed to find the location of all the assets to 
+        download for the web page 
+    #   The assets start to be fetched.
+    --  This involves TCP handshakes, TLS negotiation, and 
+        HTTP requests and responses
+    #   A DOM tree is assembled from the downloaded HTML 
+    #   The CSSOM is built from the CSS rules 
+    #   The JavaScript is parsed, interpreted, compiled, and executed 
+    #   The accessibility tree is built for assistive technologies 
+        (e.g. screen readers) to hook into 
+    #   The render tree is created from the DOM and CSSOM, to identity 
+        visual styles applied to each DOM node 
+    #   Page layout is calculated 
+    #   The styled, laid-out nodes are painted to the screen in the right 
+        order, via painting and compositing 
+
+    g)  Why the browser is sometimes seem as a hostile programming environment - 
+    #   Unlike other programming environments, it is much harder to make 
+        guarantees about th environment your code will run on 
+    #   you cannot guarantee a user's OS, browser, language, location, network 
+        connection, CPU, GPU, memory, etc 
+    #   You need to embrace uncertainty and learn to program defensively.
+    --  This feeds back into and expands upon the concepts looked at around 
+        progressive enhancement in (1.2 The HTML, CSS, and JavaScript triangle)
+    --  This would also be a good place to look at related concepts such as 
+        error handling, feature detection, and responsive design 
+
+    h)  The flipside - why the web is an awesome programming environment - 
+    #   Its basic state is accessible and linkable
+    --  Some of these basics are harder to achieve in other environments 
+    #   App delivery across the web is simple and powerful 
+    #   Updates are easy - in many cases, you can just reload the browser tab.
+    --  You don't need to worry about constantly downloading and installing 
+        large packages 
+    #   The community is vibrant and helpful, and there are lots of great 
+        resources available to learn 
+
+02. Resources - 
+    >   Populating the page: how browsers work 
+    >   Dealing with files 
+    >   How browsers work, freeCodeCamp (2018)
+
+
+
+
+===============================================================================
+Core Module : Semantic HTML 
+===============================================================================
+01. Basic HTML Syntax
+02. Good document structure 
+03. Lists 
+04. Advanced text techniques 
+05. Links 
+06. Media
+07. Other interactive elements 
+08. HTML tables 
+09. Debugging HTML 
+
+
+-------------------------------------------------------------------------------
+Basic HTML Syntax
+-------------------------------------------------------------------------------
+01. Learning outcomes - 
+    a)  The need for a doctype at the top of HTML documents. 
+    --  Its original intended purpose, and the fact that now it is somewhat of 
+        a historical artifact 
+    b)  The need to set the language of a document using the (lang) attribute 
+        in the opening (html) tag 
+    c)  The HTML head, and its purpose as a metadata container for the document
+        including key uses - 
+    #   Setting information like character encoding and title 
+    #   Providing metadata for search engines (e.g <meta name="description">)
+        and social media platforms (e.g. Open Graph Data), and the SEO benefits 
+    #   Linking to icons for use on browsers and mobile platforms 
+    #   Linking to stylesheets and script files 
+    d)  The HTML body and its purpose as a container for the page content 
+    e)  The anatomy of an HTML element - element, opening tag, content, closing 
+        tag, attributes 
+    f)  What (void elements, also know as empty elements) are, and how they 
+        differ from other elements 
+
+02. Resources - 
+    >   Getting stated with HTML 
+    >   What's in the head? Metadata in HTML 
+
+
+-------------------------------------------------------------------------------
+Good Document Structure 
+-------------------------------------------------------------------------------
+01. Learning outcomes - 
+    a)  How to create a good document structure with headings and content 
+        beneath those headings 
+    b)  Using semantic HTML rather than presentational HTML - 
+    #   Some presentational markup should no longer be used at all 
+        (e.g. <big> and <font>); it is deprecated 
+    #   Some presentational markup should no longer be used at all 
+        (e.g. <i> and <b>)
+    #   It is tempting to just use (<div>) elements wherever a block-level 
+        container is required, but you should be aware of the other available 
+        structural elements and their benefits (such as improved accessibility)
+        Examples include (<main>, <section>, <article>, <header>, <nav>, and <footer>)
+    #   Notes - 
+    --  One key point to understand there is the difference between semantic and 
+        presentational markup, what these terms mean, and why semantic markup is 
+        important to SEO and accessibility 
+
+    c)  The need for heading levels to be used logically, i.e no skipping levels or 
+        using them arbitrarily because you want to achieve a certain font size 
+        (that's a job for CSS)
+    d)  SEO benefits: for example, keywords are boosted in headings 
+    e)  Notes - 
+    #   This conformance criterium doesn't require that you go too deep into
+        strategies for writing SEO-friendly content, although you should 
+        understand what this means 
+
+    f)  Accessibility benefits: Assistive technology (AT) such as screen 
+        readers use heading and landmarks as signposts to navigate content 
+    --  HTML documents are very difficult for AT users to use without headings 
+    g)  Understanding that HTML needs to be correctly nested 
+    --  If not, the browser has to guess what you meant your structure to be, 
+        and it might not be what you wanted 
+    h)  Validating your markup using the (HTML validator) or another similar 
+        tool (for example, View Source - in Firefox highlights validation 
+        errors with a dotted red underline)
+
+02. Resources -
+    >   HTML text fundamentals 
+    >   Document and website structure 
+    >   What is accessibility 
+
+
+-------------------------------------------------------------------------------
+Lists 
+-------------------------------------------------------------------------------
+01. Learning outcomes - 
+    a)  The HTML structure for the three types of lists - unordered, ordered,
+        and description 
+    b)  Understand that description lists are less commonly used than the other 
+        two types, with use cases mainly in areas such as academia and 
+        documentation
+    c)  The correct usage for each list type
+    d)  Notes - 
+    #   Unordered lists are for making up a list of items where the order doesn't 
+        matter, such as a shopping list 
+    #   Ordered lists are for making up a list of items where the order does matter, 
+        such as a set of directions 
+    #   Description lists are for associating a list of terms with descriptions of 
+        those terms, for example, product names and descriptions in a shopping cart 
+    e)  The broader use cases of lists, such as navigation menus 
+
+02. Resources -
+    >   HTML text fundamentals > Lists 
+    >   Advanced text formatting >  Description Lists 
+
+
+-------------------------------------------------------------------------------
+Advanced Text Techniques 
+-------------------------------------------------------------------------------
+01. Learning outcomes 
+    a)  Correct usage of elements for emphasis and importance, such as (<strong>)
+        and (<em>)
+    b)  Understand HTML elements that represent other less common semantic 
+        requirements, for example - 
+        >   Quotations 
+        >   Abbreviations and acronyms 
+        >   Addresses 
+        >   Times and dates 
+        >   Superscript and subscript 
+        >   HTML entities 
+        >   Other text markup features such as (<u>, <s>, and <ruby>)
+    c)  Notes - 
+    --  It is not necessary to have an exhaustive understanding of all the 
+        semantic elements HTML offers at this stage, but you should 
+        understand that they exist, and how to look them up using MDN if 
+        you need them 
+
+02. Resources - 
+    >   HTML text fundamentals > Emphasis and Importance 
+    >   Advanced text formatting 
+    >   A delightful reference for HTML Symbols, 
+        Entities and ASCII Character Codes - Toptal (2023)
+
+
+-------------------------------------------------------------------------------
+Links 
+-------------------------------------------------------------------------------
+01. Learning outcomes 
+    a)  understand why links are the fundamental feature of the web 
+    --  There is no web without links 
+    b)  The (href) attribute 
+    c)  Absolute and relative paths, and when to use them 
+    d)  Path syntax in detail - slashes, single dot, and double dot 
+    e)  Link states and why they are important (:hover, :focus, :visited, :active)
+    f)  Inline and block-level links 
+    g)  Understanding the benefits of writing good link text, such as better
+        accessibility for screen-reader users, and potential positive SEO effects 
+    
+02. Resources - Creating hyperlinks 
+
+
+-------------------------------------------------------------------------------
+Media 
+-------------------------------------------------------------------------------
+01. Learning outcomes 
+    a)  The term "replaced element" - what does it mean 
+    b)  Images, audio, video - 
+    #   The basics - <img>, <audio>, <video> tags 
+    #   Using (src) to point to a resource (Paths are important here, see 2.5 Links)
+    #   Using (width and height), for example, to avoid unpleasant (jerky) updates 
+        to the UI once an image has finished loading and is displayed 
+    #   Video and audio - specific attributes such as (controls and muted)
+    #   <sources>
+    #   Optimizing media assets for the web - keep file sizes small 
+    c)  Media assets and licensing - 
+    #   Different types of licensing - public domain/CC0, 
+        permissive (e.g. CC license, MIT), copyrighted (rights=managed/royalty-free)
+    #   Searching for appropriately licensed media files to use in projects, 
+        e.g. via Google Images, Flickr, and The Noun Project 
+    #   Complying with license requirements 
+    d)  Alternative text ("alt text") for media 
+
+02. Resources
+    >   What is multimedia, Geeks for geeks (2023)
+    >   Multimedia and embedding 
+
+
+-------------------------------------------------------------------------------
+Other Interactive Elements 
+-------------------------------------------------------------------------------
+01. Learning outcomes - 
+    a)  Aside from links, (<button>) and form elements are the main tools for 
+        building controls for users to interact with your sites 
+    b)  Notes - 
+    --  There are a lot of input types and form features not explicitly mentioned 
+        here; the purpose is to get a good general introduction to buttons and form 
+        elements, and learn the most common cases. 
+    --  The advanced/specialized cases can be studied on a need-to-know basis, as 
+        part of a web developer's constant learning throughout their career 
+    c)  <button>
+    #   Button types - button, submit, and reset 
+    #   Why reset buttons are nearly always a bad idea 
+    d)  Common (<input>) types - text, number, file, checkbox, radio, password, 
+        search, and submit
+    e)  Common attributes - name and value 
+    f)  Client-side validation basics - required, min, max, minlength, maxlength,
+        and pattern 
+    g)  Notes - 
+    --  Make sure to understand that client-side form validation is really a 
+        usability enhancement, to be used alongside server-side form validation. 
+    --  It is not a substitute for it 
+    h)  Making forms accessible - Correct semantics, <label>, and the (for) attribute
+    i)  Notes - 
+    #   Going back to the argument for semantic HTML 
+        (see also 2.2 Good document Structure), you should understand why it is 
+        important to use the right element for the right job 
+    --  For example, use a <button> to submit your form, and not a <div> programmed 
+        to behave like a <button>
+    #   Understand the features programmed into <button> s and form elements by the 
+        browser by default, and how important they are 
+    --  Examples include keyboard accessibility, focus outlines, and semantic
+        meaning for AT to identify the elements and communicate their meaning 
+    j)  Form states and why they are important - :focus, :readonly, :disabled, etc 
+    k)  <textarea>
+    l)  <select> and <option>
+    m)  <form> elements - 
+    #   Form submission: what happens when a form is submitted 
+    #   The difference between submission methods - GET, POST, etc 
+
+02. Resources - Web forms - Working with user data 
+
+
+-------------------------------------------------------------------------------
+HTML Tables 
+-------------------------------------------------------------------------------
+01. Learning outcomes 
+    a)  What tables are for - structuring tabular data 
+    b)  What tables are not for - layout, or anything else 
+    c)  Basic tables - <table>, <tr>, and <td>
+    d)  colspan and rowspan 
+    e)  Better table structuring for accessibility - 
+        <th>, <thead>, <tbody>, <tfoot>, <caption>, and the (scope) attribute 
+
+02. Resources - HTML Tables 
+
+
+-------------------------------------------------------------------------------
+Debugging HTML 
+-------------------------------------------------------------------------------
+01. Learning outcomes - 
+    a)  Use the (HTML validator) to see if you have any markup errors 
+    --  This is a good place to start if you are experiencing unexpected behavior
+    b)  View source is a useful tool for getting a quick look at the source markup
+        of a page 
+    c)  Using the DOM inspector in browser DevTools to dive deeper into your markup
+    #   Add and remove elements and attributes on the fly to see what effect it has 
+    #   Add and remove classes on the fly to see if the associated CSS is applied 
+        as expected 
+
+02. Resources - 
+    >   Debugging HTML 
+    >   Firefox Docs > Examine and edit HTML, Firefox Source Docs 
+    >   Chrome DevTools > Get stated with viewing and changing the DOM, 
+        developer.chrome.com (2019)

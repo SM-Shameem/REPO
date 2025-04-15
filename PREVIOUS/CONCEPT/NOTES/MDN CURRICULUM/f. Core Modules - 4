@@ -1,0 +1,524 @@
+===============================================================================
+Core Module : JavaScript Fundamentals 
+===============================================================================
+01. Variables  
+02. Math  
+03. Text
+04. Array 
+05. Conditionals 
+06. Loop 
+07. Functions 
+08. JavaScript Object Basics
+09. DOM Scripting 
+10. Events 
+11. Async JavaScript Basics
+12. Network Requests with fetch()
+13. Working with JSON
+14. Libraries and Frameworks 
+15. Debugging JavaScript 
+
+
+-------------------------------------------------------------------------------
+Variables 
+-------------------------------------------------------------------------------
+01. Learning outcomes - 
+    a)  Understand what variables are and why they are so important in 
+        programming generally, not just JavaScript 
+    b)  Declaring variables with (let) and initializing them with values 
+    c)  Reassigning variables with new values 
+    d)  Creating constants with (const)
+    e)  The difference between variables and constants, and when you would 
+        use each one 
+    f)  Understand variable naming best practice
+    --  If not explicitly covered, all examples should show good variable naming 
+        pratices in action 
+    g)  The different types of value that can be stored in variables - 
+        string, numbers, booleans, arrays, and objects 
+
+02. Resources - Storing the information you need - Variables 
+
+
+-------------------------------------------------------------------------------
+Math 
+-------------------------------------------------------------------------------
+01. Learning outcomes - 
+    a)  Basic number operations in JavaScript - add, subtract, multiply, and divide
+    b)  Understand that numbers are not numbers if they are defined as strings, 
+        and how this can cause calculations to go wrong 
+    c)  Converting strings to numbers with (Number())
+    d)  Operator precedence 
+    e)  Incrementing and decrementing 
+    f)  Assignment operators, e.g. addition assignment and subtraction assignment 
+    g)  Comparison operators 
+    h)  Basic (math) object methods, 
+        such as (Math.random(), Math.floor(), and Math.ceil())
+
+02. Resources - 
+    >   Basic math in JavaScript - numbers and operators 
+    >   Numbers and dates 
+
+
+-------------------------------------------------------------------------------
+Text 
+-------------------------------------------------------------------------------
+01. Learning outcomes - 
+    a)  Creating string literals 
+    b)  Understand the need for matching quotes 
+    c)  String concatenation 
+    d)  Escaping characters in strings 
+    e)  Template literals - 
+    #   Using variables in template literals 
+    #   Multiline template literals 
+    f)  String manipulation using common properties and methods such as - 
+    #   length | toString() | includes() | indexOf() | slice() 
+    #   toLowerCase() and toUpperCase() | replace() 
+
+02. Resources - 
+    >   Handling text - strings in JavaScript 
+    >   Useful string methods 
+
+
+-------------------------------------------------------------------------------
+Arrays 
+-------------------------------------------------------------------------------
+01. Learning outcomes - 
+    a)  Understand what an array is - a structure that holds a list of variables 
+    b)  The syntax of arrays - [a, b, c] and the accessor syntax, (myArray[x])
+    c)  Modifying array values with (myArray[x] = y)
+    d)  Array manipulation using common properties and methods, such as: 
+    #   length | indexOf() | push() and pop() | shift() and unshift()
+    #   join() and split()
+    e)  Advanced array methods such as (forEach(), map() and filter())
+
+02. Resources - Arrays 
+
+
+-------------------------------------------------------------------------------
+Conditionals 
+-------------------------------------------------------------------------------
+01. Learning outcomes - 
+    a)  Understand what a conditional is - a code structure for running different 
+        code paths depending on a test result 
+    b)  if..else..else if.
+    c)  Using comparison operators to create tests 
+    d)  AND, OR, and NOT in tests 
+    e)  Switch statements 
+    f)  Ternary operators 
+
+02. Resources - Making decisions in your code - conditionals 
+
+
+-------------------------------------------------------------------------------
+Loops 
+-------------------------------------------------------------------------------
+01. Learning outcomes - 
+    a)  Understand the purpose of loops - a code structure that allows you to do 
+        something very similar many times without repeating the same code for each 
+        iteration 
+    b)  Basic (for) loops 
+    c)  Looping through collections with (for..of)
+    d)  Notes - 
+    --  There are many other types of loop in JavaScript that we haven't listed here
+    --  It is not necessary (or useful) to understand all of them at this stage. 
+    --  For now, students need to understand the purpose of loops, and the most 
+        common types 
+    e)  (break) and (continue)
+
+02. Resources - Looping code 
+
+
+-------------------------------------------------------------------------------
+Functions 
+-------------------------------------------------------------------------------
+01. Learning outcomes - 
+    a)  Understand the purpose of functions - to enable the creating of reusable 
+        blocks of code that can be called wherever needed 
+    b)  Understand that functions are used everywhere in JavaScript and that some 
+        are built into the browser and some are user-defined 
+    c)  Understand the difference between functions and methods 
+    d)  Invoking a function 
+    e)  Return values 
+    f)  Understand global scope and function/block scope 
+    g)  Passing in arguments to function calls 
+    h)  Named and anonymous functions 
+    i)  Building your own custom functions - 
+    #   Including parameters 
+    #   Including return values 
+    k)  Callback functions - understand that arguments to functions can 
+        themselves be functions, and what this pattern is use for 
+    l)  Arrow functions 
+
+02  Resources - 
+    >   Functions - reusable blocks of code 
+    >   Build your own function 
+    >   Function return values 
+    >   Arrow function expressions 
+
+
+-------------------------------------------------------------------------------
+JavaScript Object Basics 
+-------------------------------------------------------------------------------
+01. Learning outcomes - 
+    a)  Understand that in JavaScript most things are objects, and you've probably 
+        used objects every time you've touched JavaScript 
+    b)  Basic syntax - 
+    #   Object literals 
+    #   Properties and methods 
+    #   Nesting objects and arrays in objects 
+    c)  Using constructors to create a new object 
+    d)  Object scope, and (this) 
+    e)  Accessing properties and methods - bracket and dot syntax 
+    f)  Object destructuring 
+
+02. Resources - 
+    >   JavaScript object basics 
+    >   Object destructuring assignment 
+
+
+-------------------------------------------------------------------------------
+DOM Scripting 
+-------------------------------------------------------------------------------
+01. Learning outcomes - 
+    a)  Understand what the DOM is - the browser's internal representation of 
+        the document's HTML structure as a hierarchy of objects, which can be 
+        manipulated using JavaScript 
+    b)  Understand the important parts of a web browser and how they are 
+        represented in JavaScript - Navigator, Window, and Document 
+    c)  Understand how DOM nodes exist relative to each other in the DOM 
+        tree - root, parent, child, sibling, and descendant 
+    d)  Getting references to DOM nodes, for example with (querySelector()) 
+        and (getElementById())
+    e)  Creating new nodes, for example with (innerHTML()) and (createElement())
+    f)  Adding and removing nodes to DOM with (appendChild()) and (removeChild())
+    g)  Adding attributes with (setAttribute())
+    h)  Manipulating styles with (Element.style.*) and (Element.classList.*.)
+
+02. Resources - Manipulating documents 
+
+
+-------------------------------------------------------------------------------
+Events 
+-------------------------------------------------------------------------------
+01. Learning outcomes 
+    a)  Understand what events are - a signal fired by the browser when 
+        something significant happens, which the developer can run some code in
+        response to 
+    b)  Event handlers - 
+    #   addEventListener() and removeEventListener() 
+    #   Event handler properties 
+    #   Inline event handler attributes, and why you shouldn't use them 
+    c)  Event objects 
+    d)  Preventing default behavior with (preventDefault())
+    e)  Event delegation 
+
+-2. Resources - Introduction to events 
+
+
+-------------------------------------------------------------------------------
+Async JavaScript basics 
+-------------------------------------------------------------------------------
+01. Learning outcomes 
+    a)  Understand the concept of asynchronous JavaScript - what it is and how
+        it differs from synchronous JavaScript 
+    b)  Understand that callbacks and events have historically provided the 
+        means to do asynchronous programming in JavaScript 
+    c)  Modern asynchronous programming with async functions and (await) - 
+    #   Basic usage 
+    #   Understanding async function return values 
+    #   Error handling with (try .. catch)
+    d)  Promises - 
+    #   Understand that (async / await) use promises under the hood; they 
+        provide a simpler abstraction 
+    #   Chaining promises 
+    #   Catching errors with (catch())
+
+02. Resources - Asynchronous JavaScript 
+
+
+-------------------------------------------------------------------------------
+Network Requests with (fetch())
+-------------------------------------------------------------------------------
+01. Learning outcomes - 
+    a)  Understand that (fetch()) is used for asynchronous network requests, 
+        which is by far the most common asynchronous JavaScript use case on 
+        the web 
+    b)  Common types of resources that are fetched from the network - 
+    #   Text content, JSON, media assets, etc 
+    #   Data from RESTful APIs. 
+    --  Learn the basic concepts behind REST, including common patterns such 
+        as CRUD 
+    c)  Understand what single-page apps (SPAs) are, and issues surrounding them - 
+    #   Accessibility issues behind asynchronous updates, for example, content 
+        updates not being announced by screen readers by default 
+    #   Usability issues behind asynchronous updates, like loss of history and 
+        breaking the back button 
+    d)  Understand HTTP basics 
+    --  You should look at common HTTP methods such as (GET, DELETE, POST and PUT),
+        and how they are handled via (fetch())
+
+    02. Resources - Fetching data from the server 
+
+
+-------------------------------------------------------------------------------
+Working with JSON 
+-------------------------------------------------------------------------------
+01. Learning outcomes - 
+    a)  Understand what JSON is - a very commonly used data format based on 
+        JavaScript object syntax 
+    b)  Understand that JSON can also contain arrays 
+    c)  Retrieve JSON as a JavaScript object using mechanisms available in web 
+        APIs (e.g. Response.json()) in the Fetch API) 
+    d)  Access values inside JSON data using bracket and dot syntax 
+    e)  Converting between objects and text using JSON.parse() and JSON.stringify()
+
+02. Resources - Working with JSON 
+
+
+-------------------------------------------------------------------------------
+Libraries and Frameworks 
+-------------------------------------------------------------------------------
+01. Learning outcomes - 
+    a)  Understand what third-party code is - functionality written by someone 
+        else that you can use in your own project, so you don't have to write 
+        everything yourself 
+    b)  Why developers use third-party code - 
+    #   Efficiency and productivity - A huge amount of complex functionality 
+        is already written for you to use, create in a way that enforces 
+        efficient, modular code organization 
+    #   Compatibility - Reputable framework code is already optimized to work 
+        across browsers/devices, for performance, etc 
+    --  Many frameworks also have systems to output to specific platforms 
+        (e.g. Android or iOS) as build targets 
+    #   Support/ecosystem - Popular frameworks have vibrant communities and 
+        help resources to provide support, and rich systems of extensions/
+        plugins to add functionality 
+    c)  The difference between libraries and frameworks - 
+    #   A library tends to be a single code component that offers a solution
+        to a specific problem, which you can integrate into your own app 
+        (for example, (chart.js) for creating <canvas> - based charts, or 
+        (three.js) for simplified 3D GPU - based graphics rendering), whereas a 
+        framework tends to be a more expansive architecture made up of multiple 
+        components for building complete applications 
+    #   A library tends to be unopinionated about how you work with it in your 
+        codebase, whereas a framework tends to enforce a specific coding style 
+        and control flow 
+    d)  Why should you use frameworks 
+    #   They can provide a lot of functionality and save you a lot of time 
+    #   A lot of companies use popular frameworks such as React or Angular to 
+        write their applications, therefore a lot of jobs list frameworks as 
+        requirements for applications to have 
+    e)  Why is a framework not always the right choice? A framework - 
+    #   Can easily be overkill for a small project - Yu might be better off     
+        writing a few lines of vanilla JavaScript to solve the problem or 
+        using a tailored library 
+    #   Usually adds a lot of JavaScript to the initial download of your
+        applications, leading to an initial performance hit and possible 
+        usability issues 
+    #   Usually comes with its own set of custom syntax and conventions, which 
+        can introduce a significant additional learning curve to the project 
+    #   May be incompatible with an existing codebase because of its 
+        architecture choice 
+    #   Will need to be update regularly, possibly leading to extra maintenance 
+        overhead for your application 
+    #   Many introduce significant accessibility issues for people using assistive 
+        technologies because of its architecture 
+        (for example, SPA-style client-side routing), which will need to be 
+        considered carefully 
+    f)  How to choose? A good library or framework must - 
+    #    Solve your problems while offering advantages that significantly 
+        outweigh any negatives that it brings to the table 
+    #   Have good support and a friendly community 
+    #   Be actively maintained - don't choose a codebase that has not been 
+        updated for over a year, or has no users 
+
+02. Resources - Introduction to client-side frameworks 
+
+
+-------------------------------------------------------------------------------
+Debugging JavaScript 
+-------------------------------------------------------------------------------
+01. Learning outcomes - 
+    a)  Understand the different types of JavaScript errors, for example, syntax 
+        errors and logic errors 
+    b)  Learn about the common types of JS error messages and what they mean 
+    c)  Using browser developer tools to inspect the JavaScript running on your 
+        page and see what errors it is generating 
+    d)  Using (console.log()) and (console.error()) for simple degugging 
+    e)  Error handling - 
+    #   Using conditional to avoid errors 
+    #   try .. catch 
+    #   throw 
+    f)  Advanced JavaScript debugging with breakpoints, watchers, etc 
+
+02. Resources - 
+    >   What went wrong? Troubleshooting JavaScript 
+    >   Control flow and error handling > Exception handling statements 
+    >   The firefox JavaScript debugger, Firefox Source Docs 
+    >   Chrome > Console overview, developer.chrome.com (2019)
+    >   Chrome > Debug JavaScript, developer.chrome.com (2017)
+
+
+
+
+===============================================================================
+Core Modules : Accessibility 
+===============================================================================
+01. Accessibility Basics 
+02. Accessible Styling 
+03. Accessible JavaScript 
+04. Assistive Technology 
+05. WAI-ARIA
+
+
+-------------------------------------------------------------------------------
+Accessibility Basics 
+-------------------------------------------------------------------------------
+01. Learning outcomes - 
+    a)  Understand the point of accessibility - increased usability for everyone, 
+        better SEO, and a wider target audience. 
+    --  Also, be aware of the legal requirements 
+    b)  Understand that accessibility should be considered from the start of a 
+        project, and not bolted on at the end 
+    c)  Understand the Web Content Accessibility Guidelines (WCAG) 
+        conformance criteria
+    d)  Use semantic HTML, aka "The right element for the right job", because the 
+        browser provides so many built-in accessibility hooks.
+    --  Good examples are (<a>) and (<input>) elements 
+    e)  Accessible best practices - 
+    #   Alt text (see also 2.6 Media) 
+    #   Good link text (see also 2.5 Links) 
+    #   <label> s for form elements (see also 2.7 Other interactive elements)
+    #   Mobile browsers that provide specific usability advantages for specific 
+        (<input>) types such as (number) or (tel)
+    #   Making tables accessible with (<th>, <thead>, <tbody>, <tfoot>, <caption>)
+        and the (scope) attribute (see also 2.8 HTML tables) 
+    #   Using simple plain language, steering clear of slang and abbreviations 
+        where possible, and providing definitions where it is not possible 
+    f)  Understand the purpose of audio transcripts and text tracks 
+        (captions, subtitles, etc) in making audio and video content accessible 
+        (we are not expecting mastery in creating them; that is an advanced topic
+        in its own right) 
+    g)  Keyboard accessibility - 
+    #   Understand why apps need to be keyboard accessible - many people have 
+        difficult using a mouse or other pointing device 
+    #   Understand built-in browser keyboard controls 
+    #   Understand when (accesskey) and (tabindex) are appropriate to use 
+
+02. Resources - 
+    >   What is accessibility 
+    >   HTML: A good basis for accessibility 
+    >   Handling common accessibility problems 
+    >   Understanding the Web Content Accessibility Guidelines 
+
+
+-------------------------------------------------------------------------------
+Accessible Styling 
+-------------------------------------------------------------------------------
+01. Learning outcomes - 
+    a)  Text sizing and layout - 
+    #   Make sure your text is well laid out, consistent, and legible.
+    #   Consider providing large-type interfaces for those with visual impairments 
+    #   see also 4.1 Text and font styling 
+    b)  Color contrast - 
+    #   Use an online tool such as WebAIM's (Color Contrast Checker) or the 
+        (TPGi Color Contrast Analyzer) to check whether your color contrast 
+        conforms to the relevant WCAG conformance criteria 
+    #   Be mindful of those with color blindness or visual impairments; provide 
+        high-contrast modes to suit 
+    c)  (:focus) and (:hover) styles - 
+    #   These are important cues for mouse and keyboard users. 
+    #   See also 4.2 Styling lists and links 
+    d)  Sensible animation usage - use animation subtly and provide controls to 
+        turn it off - 
+    #   Consider the needs of those with certain cognitive disabilities 
+    #   The (prefers-reduced-motion) media query was created specifically to help 
+        with this 
+    e)  Best practices for hiding content so that it doesn't become inaccessible 
+    --  For example, (display: none) makes content unreadable by screen readers, 
+        so it needs to be used carefully 
+
+02. Resources - 
+    >   CSS and JavaScript accessibility best practices > CSS 
+    >   Inclusive design principles, inclusivedesignprinciples.org 
+    >   Accessibility Design Guide, wiki.mozilla.org (2023)
+
+
+-------------------------------------------------------------------------------
+Accessible JavaScript 
+-------------------------------------------------------------------------------
+01. Learning outcomes - 
+    a)  Understand that there is such a thing as too much JavaScript. 
+    --  A simpler approach is usually more accessible, and often better for 
+        everyone 
+    b)  Understand the value of unobtrusive JavaScript - 
+    #   If possible, use JavaScript as a usability enhancement, which isn't 
+        essential for the app to function 
+    #   A good example is client-side validation of form inputs 
+    c)  Use events sensibly so you don't lock out specific control types 
+    --  For example, mouse-specific events such as (mouseover) and (mouseout) 
+        could lock out keyboard or touchscreen users 
+
+02. Resources - 
+    >   CSS and JavaScript accessibility best practices > JavaScript 
+    >   Mobile accessibility 
+    >   Validating input, W3C (2019)
+
+
+-------------------------------------------------------------------------------
+Assistive Technology 
+-------------------------------------------------------------------------------
+01. Learning outcomes - 
+    a)  Screen readers and other assistive technology (AT) types - 
+    #   What they are used for, and who uses them 
+    #   Notes - 
+    --  The aim here is not to master the usage of all assistive technology 
+        types (there are many that we have not listed below), but to be aware 
+        of their existence and the types of people who use them, and also to 
+        appreciate how and why accessibility best practices work 
+    #   Notes - 
+    --  It is also a good idea for web developers to use screen readers or 
+        other types ofo assistive technology, to get an idean of what the web 
+        experience is like for users of those technologies 
+    b)  The importance of source order 
+    c)  The accessibility layer in browsers, and how assistive technologies 
+        hook into it 
+    d)  Setting up screen readers and using them to test websites on desktop 
+        and mobile 
+    e)  Other assistive technology such as - 
+    #   Large text or braille keyboards 
+    #   Alternative pointing devices such as trackballs, joysticks, and touchpads 
+    #   Screen magnifiers 
+    #   Voice recognition software 
+    #   Switch controls 
+    f)  Auditing tools such as the (firefox Accessibility Inspector, the ANDI 
+        bookmarklet, Wave, and Google Lighthouse accessibility audits)
+
+02. Resources - 
+    >   Handling common accessibility problems > Accessibility tools 
+    >   Motile accessibility 
+    >   How People with Disabilities Use the Web, W3C (2017) 
+    >   WebAIM accessibility tooling articles, WebAIM
+
+
+-------------------------------------------------------------------------------
+WAI-ARIA
+-------------------------------------------------------------------------------
+01. Learning outcomes - 
+    a)  Understand the purpose of WAI-ARIA -- to provide semantics to otherwise 
+        non-semantic HTML, so that AT users can make sense of the interfaces 
+        being presented to them - 
+    #   (The first rule of ARIA) - "If you can use a native HTML element or 
+        attribute with the semantics and behavior you require already built in, 
+        instead of re-purposing an element and adding an ARIA role, state or 
+        property to make it accessible, then do so."
+    #   In other words, using semantic HTML is an ideal, which is not possible at 
+        all times. 
+    --  WAI-ARIA is a bridging technology for such cases 
+    b)  The basic syntax - roles, properties, and states 
+    c)  Landmarks and signposting 
+    d)  Enhancing keyboard accessibility 
+    e)  Announcing dynamic content updates with live regions 
+
+02. Resources- 
+    >   WAI-ARIA basics 
+    >   ARIA Authoring Practices Guide (APG), W3C

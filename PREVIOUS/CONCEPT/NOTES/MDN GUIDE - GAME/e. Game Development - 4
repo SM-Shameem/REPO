@@ -1,0 +1,44 @@
+===============================================================================
+Tutorials : 2D Breakout Game Using Pure JavaScript 
+===============================================================================
+01. 2D breakout game using pure JavaScript 
+02. Lesson details 
+03. Next steps 
+
+
+===============================================================================
+Tutorials : 2D Breakout Game Using Phaser 
+===============================================================================
+01. 2D breakout game using phaser 
+02. Lesson details 
+03. Next steps 
+
+
+===============================================================================
+Tutorials : 2D maze game with device orientation 
+===============================================================================
+01. 2D maze game with device orientation 
+02. Example game 
+03. Phaser framework 
+04. Starting with the project 
+05. Setting up the canvas 
+06. Managing game states 
+07. Ideas for new features 
+
+
+===============================================================================
+Tutorials : 2D Platform Game Using Phaser 
+===============================================================================
+01. Start here 
+02. Important 
+03. About the art assets 
+04. Contents of this guide 
+    > Start here                            > Pickable coins 
+    > Initialise phaser                     > Walking enemies 
+    > The game loop                         > Death 
+    > Creating platforms                    > Scoreboard 
+    > The main character sprite             > Animations for the main character 
+    > Keyboard controls                     > Win condition 
+    > Moving sprites with physics           > Switching levels 
+    > Gravity                               > Moving forward 
+    > Jumps 

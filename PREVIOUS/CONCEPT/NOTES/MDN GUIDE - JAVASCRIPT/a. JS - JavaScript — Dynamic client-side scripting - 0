@@ -1,0 +1,99 @@
+===============================================================================
+JavaScript - Dynamic Client-Side Scripting 
+===============================================================================
+01. Prerequisites 
+    > Getting Stated with the web (Basic JavaScript introduction)
+    > Introduction to HTML 
+    > Introduction to CSS 
+    # JavaScript Guide 
+    # Web APIs 
+02. Modules 
+    a)  JavaScript first steps 
+    b)  JavaScript building blocks  
+    c)  Introduction JavaScript objects 
+    d)  Asynchronous JavaScript 
+    e)  Client-side web APIs
+03. Solving common HTML problems 
+    >   Solve common problems in your JavaScript code 
+04. See also 
+    >   JavaScript on MDN
+    >   Learn JavaScript 
+    >   Coding math 
+
+
+-----------------------------------
+JavaScript First Steps  
+-----------------------------------
+01. JavaScript first steps 
+02. A first splash into JavaScript 
+03. What went wrong? Troubleshooting 
+04. Storing the information you need - variables 
+05. Basic math in JavaScript - numbers and operators 
+06. Handling text - strings in JavaScript 
+07. Useful string methods 
+08. Arrays 
+09. Silly story generator 
+
+
+-----------------------------------
+JavaScript Building Blocks
+-----------------------------------
+01. JavaScript building blocks 
+02. Making decisions in your code - conditionals 
+03. Looping code 
+04. Functions - reusable blocks of code 
+05. Building your own function 
+06. FUnction return values 
+07. Introduction to events 
+08. Event bubbling 
+09. Image gallery 
+
+
+-----------------------------------
+Introduction JavaScript Objects
+-----------------------------------
+01. Introducing JavaScript objects 
+02. JavaScript object basics 
+03. Object prototypes 
+04. Object-oriented programming 
+05. Classes in JavaScript 
+06. Working with JSON 
+07. Object building practice 
+08. Adding features to our bouncing balls demo 
+
+
+-----------------------------------
+Asynchronous JavaScript 
+-----------------------------------
+01. Asynchronous JavaScript 
+02. Introducing asynchronous JavaScript 
+03. How to use promises 
+04. How to implement a promise-based API 
+05. Introducing workers 
+06. Sequencing animations 
+
+
+-----------------------------------
+Client-Side Web APIs
+-----------------------------------
+01. Client-side web APIs
+02. Introduction to web APIs
+03. Manipulating documents 
+04. Fetching data from the server 
+05. Third-party APIs 
+06. Drawing graphics 
+07. Video and Audio APIs 
+08. Client-side storage 
+
+
+-----------------------------------
+REFERENCES 
+-----------------------------------
+01. Built-in Objects 
+02. Expressions and Operators 
+03. Statements and Declarations 
+04. Functions 
+05. Classes 
+06. Regular Expressions 
+07. Errors 
+08. Misc 

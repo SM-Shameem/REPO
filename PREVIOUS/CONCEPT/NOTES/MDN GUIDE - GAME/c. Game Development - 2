@@ -1,0 +1,114 @@
+===============================================================================
+2D Games on the Web : 3D Games on the Web Overview 
+===============================================================================
+01. 3D games on the web overview 
+02. Documentation and browser support 
+03. Explaining the basic 3D theory 
+04. Advanced concepts 
+05. The rise of libraries and frameworks 
+06. Where to go next 
+
+
+===============================================================================
+3D Games on the Web : Explaining Basic 3D Theory 
+===============================================================================
+01. Explaining basic 3D theory 
+02. Coordinate system 
+03. Objects 
+04. Rendering pipeline 
+05. Vertex processing 
+06. Rasterization 
+07. Fragment processing 
+08. Output merging 
+09. Conclusion 
+
+
+===============================================================================
+3D Games on the Web : Building up a Basic Demo with A Frame 
+===============================================================================
+01. Building up a basic demo with a frame 
+02. High level overview 
+03. Environment setup 
+04. HTML structure 
+05. Adding some JavaScript to the mix 
+06. Animation 
+07. Conclusion 
+08. See also 
+
+
+===============================================================================
+3D Games on the Web : Building up a Basic Demo with Babylon.js
+===============================================================================
+01. Building up a basic demo with babylon.js 
+02. Environment setup 
+03. HTML structure 
+04. Initializing the babylon.js engine 
+05. Creating a scene 
+06. Creating a rendering loop 
+07. Creating a camera 
+08. Let there be light 
+09. Geometry 
+10. Material 
+11. More shapes 
+12. Animation 
+13. Conclusion 
+
+
+===============================================================================
+3D Games on the Web : Building up A Basic Demo With PlayCanvas 
+===============================================================================
+01. Building up a basic demo with PlayCanvas 
+02. Games and demos 
+03. Engine vs. editor 
+04. PlayCanvas engine 
+05. PlayCanvas editor 
+06. Summary 
+
+
+===============================================================================
+3D Games on the Web : Building up A Basic Demo with Three.js 
+===============================================================================
+01. Building up a basic demo with three.js 
+02. Environment setup 
+03. HTML structure 
+04. Renderer 
+05. Scene 
+06. Camera 
+07. Rendering the scene 
+08. Geometry 
+09. Material 
+10. Mesh 
+11. Adding the cube to the scene 
+12. More shapes and materials 
+13. Lights 
+14. Animation 
+15. Conclusion 
+
+
+===============================================================================
+3D Games on the Web : WebXR
+===============================================================================
+01. WebXR - Virtual and Augmented Reality for the web
+02. VR devices 
+03. The WebXR API 
+04. Tools and techniques 
+05. The future of WebXR 
+06. See also 
+
+
+===============================================================================
+3D Games on the Web : 3D Collision Detection 
+===============================================================================
+01. 3D collision detection 
+02. Axis-aligned bounding boxes 
+03. Bounding spheres 
+04. Using a physics engine 
+05. See also 
+
+
+===============================================================================
+3D Games on the Web : Bounding Volume Collision Detection with THREE.js
+===============================================================================
+01. Bounding volume collision detection with Three.js
+02. Using Box3 and Sphere 
+03. Using BoxHelper 

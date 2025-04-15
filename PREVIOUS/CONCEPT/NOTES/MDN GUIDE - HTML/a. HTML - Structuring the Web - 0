@@ -1,0 +1,72 @@
+===============================================================================
+HTML - Structuring the Web 
+===============================================================================
+01. Prerequisites 
+02. Modules 
+    a)  Introduction to HTML 
+    b)  Multimedia and embedding 
+    c)  HTML tables 
+03. Solving common HTML problems 
+    >   Use HTML to solve common problems 
+04. See also 
+    >   Web forms 
+    >   HTML (HyperText Markup Language) on MDN
+
+
+-----------------------------------
+Introduction to HTML 
+-----------------------------------
+01. Introduction to HTML 
+02. Getting stated with HTML 
+03. What's in the head? Metadata in HTML 
+04. HTML text fundamentals 
+05. Creating hyperlinks 
+06. Advanced text formatting 
+07. Document and website structure 
+08. Debugging HTML 
+09. Marking up a letter 
+10. Structuring a page of content 
+
+
+-----------------------------------
+Multimedia and Embedding 
+-----------------------------------
+01. Multimedia and embedding 
+02. Images in HTML 
+03. Video and audio content 
+04. From object to iframe - other embedding technology 
+05. Adding vector graphics to the web 
+06. Responsive images 
+07. Mozilla splash page 
+
+
+-----------------------------------
+HTML Tables
+-----------------------------------
+01. HTML tables 
+02. HTML table basics 
+03. HTML table advanced features and accessibility 
+
+
+-----------------------------------
+REFERENCES 
+-----------------------------------
+01. HTML elements 
+02. Global Attributes 
+03. Attributes 
+04. <input> types 
+
+
+-----------------------------------
+REFERENCES: GUIDES 
+-----------------------------------
+01. Content categories 
+02. Block-level elements 
+03. inline elements 
+04. Quirks mode and standards mode 
+05. Data and time formats used in HTML 
+06. Constraint validation 
+07. Microdata 
+08. Microformats 
+09. Viewport meta tag 
+10. Allowing cross-origin use of images and canvas 

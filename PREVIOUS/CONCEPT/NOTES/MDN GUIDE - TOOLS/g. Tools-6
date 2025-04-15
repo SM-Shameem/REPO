@@ -1,0 +1,94 @@
+===============================================================================
+Cross Browser Testing : Cross Browser Testing 
+===============================================================================
+01. Cross Browser Testing 
+02. Prerequisites 
+03. Guides > all the topics are listed below 
+
+
+===============================================================================
+Cross Browser Testing : Introduction to Cross-Browser Testing
+===============================================================================
+01. Introduction to cross-browser Testing 
+02. What is cross-browser testing? 
+03. Why do cross-browser issues occur? 
+04. Workflows for cross-browser testing
+05. Reporting bugs 
+06. Summary 
+
+
+===============================================================================
+Cross Browser Testing : Strategies for Carrying Out Testing 
+===============================================================================
+01. Strategies for carrying out testing 
+02. Choosing which browser and devices to test 
+03. What are you going to test? 
+04. Putting together a testing lab 
+05. User testing 
+06. Summary 
+
+
+===============================================================================
+Cross Browser Testing : Handling Common HTML and CSS Problems 
+===============================================================================
+01. Handling common HTML and CSS problems 
+02. The trouble with HTML and CSS 
+03. First things first: fixing general problems 
+04. Common cross browser problems 
+05. Finding help 
+06. Summary 
+
+
+===============================================================================
+Cross Browser Testing : Handling Common JavaScript Problems 
+===============================================================================
+01. Handling common JavaScript problems 
+02. The trouble with JavaScript 
+03. Fixing general JavaScript problems 
+04. Cross-browser JavaScript problems 
+05. Finding help 
+06. Summary 
+
+
+===============================================================================
+Cross Browser Testing : Handling Common Accessibility 
+===============================================================================
+01. Handling common accessibility 
+02. What is accessibility 
+03. Common accessibility issues 
+04. Accessibility tools 
+05. Accessibility testing checklist 
+06. Finding help 
+07. Summary 
+
+
+===============================================================================
+Cross Browser Testing : Implementing Feature Detection 
+===============================================================================
+01. Implementing feature detection 
+02. The concept of feature detection 
+03. Writing your own feature detection tests 
+04. Summary 
+
+
+===============================================================================
+Cross Browser Testing : Introduction to Automated Testing 
+===============================================================================
+01. Introduction to automated testing 
+02. Automation makes things easy 
+03. Using a task runner to automate testing tools 
+04. Using commercial testing services to speed up browser testing 
+05. Summary 
+
+
+===============================================================================
+Cross Browser Testing : Setting up Your Own Test Automation Environment 
+===============================================================================
+01. Setting up your own test automation environment 
+02. Selenium 
+03. Testing in multiple browsers at once 
+04. WebDriver syntax crash course 
+05. Test best practices 
+06. Running remote tests 
+07. Integrating selenium with CI tools 
+08. Summary 

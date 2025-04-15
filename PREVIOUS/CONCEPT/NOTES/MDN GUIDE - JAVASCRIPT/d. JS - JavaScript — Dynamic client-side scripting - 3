@@ -1,0 +1,94 @@
+===============================================================================
+Introducing JavaScript Objects : Introducing JavaScript Objects    
+===============================================================================
+01. Introducing JavaScript objects 
+02. Prerequisites 
+    > HTML and CSS 
+    > JavaScript first steps 
+    > JavaScript building blocks 
+03. Guide > All the topics below 
+04. Assessments > Adding features to our bouncing balls demo 
+05. See also > learn JavaScript 
+
+
+===============================================================================
+Introducing JavaScript Object : JavaScript Object Basics 
+===============================================================================
+01. JavaScript object basics 
+02. Object basics 
+03. Dot notation 
+04. Bracket notation 
+05. Setting object members 
+06. What is "this"? 
+07. Introducing constructors
+08. You've been using objects all along 
+09. Test your skills
+10. Summary 
+
+
+===============================================================================
+Introducing JavaScript Object : Object Prototype 
+===============================================================================
+01. Object prototype 
+02. The prototype chain 
+03. Shadowing properties 
+04. Setting a prototype 
+05. Prototypes and inheritance 
+06. Summary 
+
+
+===============================================================================
+Introducing JavaScript Object : Object-oriented Programming 
+===============================================================================
+01. Object-oriented programming 
+02. Classes and instances 
+03. Inheritance 
+04. Encapsulation 
+05. OOP and JavaScript 
+06. Summary 
+
+
+===============================================================================
+Introducing JavaScript Object : Classes in JavaScript 
+===============================================================================
+01. Classes in JavaScript 
+02. Classes and constructors
+03. Inheritance 
+04. Encapsulation 
+05. Test your skills
+06. Summary 
+
+
+===============================================================================
+Introducing JavaScript Object : Working with JSON 
+===============================================================================
+01. Working with JSON 
+02. No, really, what is JSON 
+03. Active learning: Working through a JSON example 
+04. Converting between objects and text 
+05. Test your skills 
+06. Summary 
+07. See also 
+
+
+===============================================================================
+Introducing JavaScript Object : Object Building Practice 
+===============================================================================
+01. Object building practice 
+02. Let's bounce some balls 
+03. Getting started 
+04. MOdeling a ball in our program 
+05. Animating the ball 
+06. Adding collision detection 
+07. Summary 
+08. See also 
+
+
+===============================================================================
+Introducing JavaScript Object : Adding Features to Our Bouncing Balls Demo 
+===============================================================================
+01. Adding features to our bouncing balls demo 
+02. Starting point
+03. Hints and tips 
+04. Project brief 
+05. Steps to complete 
