@@ -93,7 +93,7 @@ int main(void) {
                 cin >> number; 
                 emp = new employee[number];            
             } 
-            else if (number > 0 && number <= 10 && number != count) {
+            else if (number > 0 || number <= 10 && number != count) {
                 system("cls");
                 cout << "----------------------------------------" << endl;
                 cout << "DATA INDEX - " << count + 1 << endl;
@@ -118,7 +118,6 @@ int main(void) {
             } 
         }
         else if (option == 2) {
-            system("cls");
             cout << "----------------------------------------" << endl;
             cout << "DATA INDEX - " << count + 1 << endl;
             cout << "----------------------------------------" << endl;
