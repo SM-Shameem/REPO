@@ -65,7 +65,6 @@ int main(void) {
     employee* emp = nullptr;
 
     do {
-
         // option active or invalid to exit option 
         // option active to new active option 
         // option invalid to new active option
